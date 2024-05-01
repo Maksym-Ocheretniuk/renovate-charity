@@ -2,146 +2,105 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
+  background-color: var(--header-background-color);
+
   // outline: 2px solid rgb(80, 206, 66);
   // outline-offset: -2px;
 
-  @media screen and (min-width: 768px) {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 20px;
+  //   padding-bottom: 20px;
+  // }
 
-  @media screen and (min-width: 1200px) {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   padding-top: 30px;
+  //   padding-bottom: 30px;
+  // }
 }
 
 .header__container {
+  outline: 2px solid rgb(80, 206, 66);
+  outline-offset: -2px;
+
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 50px;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
+  
 
-  @media screen and (min-width: 768px) {
-    padding-right: 100px;
-    gap: 40px;
-    width: 768px;
-  }
+  // padding-top: 60px;
 
-  @media screen and (min-width: 1200px) {
-    padding-right: 160px;
-    gap: 140px;
-    width: 1200px;
-  }
+  // color: var(--text-header-text-color);
+
+  // @media screen and (min-width: 480px) {
+  //   width: 480px;
+  // }
+
+  // @media screen and (min-width: 768px) {
+  //   display: block;
+  //   padding-right: 100px;
+  //   gap: 40px;
+  //   width: 768px;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  //   padding-right: 160px;
+  //   gap: 140px;
+  //   width: 1200px;
+  // }
 }
 
-.header-text {
+.header__nav {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header__nav-list {
+  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    gap: 30px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    gap: 50px;
-  }
+  justify-content: space-around;
+  gap: 50px;
 }
 
-.header-text__text {
-  font-family: 'Caveat', Verdana, sans-serif;
+.header__nav-item {
+  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: calc(25 / 20);
-  letter-spacing: 0.05em;
-
-  color: var(--text-header-text-color);
-  opacity: 0.8;
-
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(22 / 18);
   text-align: center;
+  // text-transform: uppercase;
+  border: 0;
 
-  @media screen and (min-width: 768px) {
-    font-size: 32px;
-    line-height: calc(40 / 32);
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 36px;
-    line-height: calc(45 / 36);
-  }
-}
-
-.header-text__name {
-  font-family: 'Atma', Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: calc(38 / 32);
-
-  text-align: center;
-
-  color: var(--text-header-name-color);
-
-  transition: var(--animation-base);
+  color: var(--header-nav-color);
 
   &:hover,
   &:focus {
-    color: var(--text-header-name-color-accent);
-    transform: scale(1.05);
-  }
-
-  @media screen and (min-width: 768px) {
-    font-size: 40px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 48px;
+    color: var(--header-nav-color-accent);
+    transition: color 250ms;
   }
 }
 
-.header-text__description {
-  font-family: 'Caveat', Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(25 / 20);
-  letter-spacing: 0.05em;
-
-  text-align: center;
-
-  color: var(--text-header-description-color);
-
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 21px;
-  }
+.header__nav-link {
+  position: relative;
 }
 
-.header-img {
-  width: 75px;
+.header__nav-link:hover:before {
+  transform: scaleX(1);
+  transition: transform 250ms;
+}
 
-  &:hover,
-  &:focus {
-    content: url('../images/header/img-bird-wakeup@2x.png');
-  }
+.header__nav-link::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: var(--header-nav-color-accent);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
 
-  @media screen and (min-width: 768px) {
-    width: 70px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 100px;
-  }
+  transform: scaleX(0);
 }
