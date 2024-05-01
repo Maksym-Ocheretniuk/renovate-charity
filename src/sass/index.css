@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* 
+основний колір тексту
+колір тексту параграфів
+колір наведення-акценту
+білий #FFFFFF
+колір заливки подложки на головній сторінці - rgb(202,154,155)
+шрифт на HEADER
+*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  height: 100%;
+  color: var(--text-color-primary);
+  background-color: var(--background-color);
+  /* приховати тільки горизонтальну смугу прокручування */
+  overflow-x: hidden;
+}
+
+/* глобальне скидання стилів */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Елементи-посилання "а" скидуємо до дефолтних стилів */
+a,
+a:focus,
+a:hover,
+a:active,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* прибираємо підкреслення посилання */
+.link {
+  text-decoration: none;
+}
+
+/* прибираємо маркери списку */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Робота з картинками */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1200px;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,45 @@
+/* 
+основний колір тексту
+колір тексту параграфів
+колір наведення-акценту
+білий #FFFFFF
+колір заливки подложки на головній сторінці - rgb(202,154,155)
+шрифт на HEADER
+*/
+
+:root {
+  // --text-color-primary: #4f4141;
+  // --background-color: #ffffff;
+
+  // HEADER
+  // --text-header-text-color: #053a31;
+  // --text-header-name-color: #8635a4;
+  // --text-header-name-color-accent: rgb(92, 52, 98);
+  // --text-header-description-color: #835a4a;
+
+  // FOOTER
+  // --text-footer-nav-color: #8635a4;
+  // --border-footer-style: 1px solid rgb(146, 132, 132);
+  // --icon-socials-footer-fill: rgb(128, 128, 128);
+  // --icon-socials-footer-fill-accent: blue;
+  // --text-footer-copyright-color: rgb(146, 132, 132);
+
+  // PAGE -->> "My books"
+  // --books-page-bcg: #fff9b6;
+  // --books-item-bcg: white;
+  // --books-item-border-color: rgb(0, 0, 0);
+  // --books-caption-bcg: #fff36b;
+  // --books-caption-bcg-other: #c7ffd8;
+  // --books-title-color-accent: #09792b;
+
+  // PAGE -->> "My illustrations"
+
+  // PAGE -->> "About me"
+
+  // PAGE -->> "Contact"
+
+  // ANIMATION
+  // --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // --animation-bcg: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
