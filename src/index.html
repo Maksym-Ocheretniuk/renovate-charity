@@ -32,7 +32,7 @@
         
           <a href="">
             <img class="header-logo" srcset="./images/logo.svg 1x, ./images/logo.svg 2x"
-          src="./images/logo.svg" alt="bird" width="150" height="150" loading="lazy">
+          src="./images/logo.svg" alt="logo" width="150" height="150" loading="lazy">
           </a>
         
         <nav class="header__nav">
@@ -120,7 +120,7 @@
           <li>
             <a class="icons__main-link link" href="" target="_blank"
               rel="noreferrer noopener" aria-label="ZSU icon">
-              <svg class="footer__socials-icon" width="100" height="100">
+              <svg width="100" height="100">
                 <use href="./images/icons.svg#icon-zsu"></use>
               </svg>
               <h2 class="icons__main-title">«Допомога ЗСУ»</h2>
@@ -129,7 +129,7 @@
           <li>
             <a class="icons__main-link link" href="" target="_blank"
               rel="noreferrer noopener" aria-label="Candles icon">
-              <svg class="footer__socials-icon" width="100" height="100">
+              <svg width="100" height="100">
                 <use href="./images/icons.svg#icon-candles"></use>
               </svg>
               <h2 class="icons__main-title">«Сили спеціальних свічкових операцій»</h2>
@@ -138,7 +138,7 @@
           <li>
             <a class="icons__main-link link" href="" target="_blank"
               rel="noreferrer noopener" aria-label="Nets icon">
-              <svg class="footer__socials-icon" width="100" height="100">
+              <svg width="100" height="100">
                 <use href="./images/icons.svg#icon-nets"></use>
               </svg>
               <h2 class="icons__main-title">«Загін сітко-маскувальних сил»</h2>
@@ -147,7 +147,7 @@
           <li>
             <a class="icons__main-link link" href="" target="_blank"
               rel="noreferrer noopener" aria-label="Humanitarian icon">
-              <svg class="footer__socials-icon" width="100" height="100">
+              <svg width="100" height="100">
                 <use href="./images/icons.svg#icon-humanitarian"></use>
               </svg>
               <h2 class="icons__main-title">«Гуманітарна допомога»</h2>
@@ -156,7 +156,7 @@
           <li>
             <a class="icons__main-link link" href="" target="_blank"
               rel="noreferrer noopener" aria-label="Donate icon">
-              <svg class="footer__socials-icon" width="100" height="100">
+              <svg width="100" height="100">
                 <use href="./images/icons.svg#icon-donate"></use>
               </svg>
               <h2 class="icons__main-title">«Відбудова країни»</h2>
@@ -167,28 +167,63 @@
       
     </section>
 
-    <footer>
-      <div>QR code</div>
-      <div>
-        <a class="footer__socials-link" href="https://www.facebook.com/renovate.charity" target="_blank"
-          rel="noreferrer noopener" aria-label="Facebook icon">
-          <svg class="footer__socials-icon" width="60" height="60">
-            <use href="./images/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-        <a class="footer__socials-link" href="https://www.instagram.com/renovate_charity" target="_blank"
-          rel="noreferrer noopener" aria-label="Instagram icon">
-          <svg class="footer__socials-icon" width="60" height="60">
-            <use href="./images/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-        <a class="footer__socials-link" href="https://t.me/renovate_charity" target="_blank"
-          rel="noreferrer noopener" aria-label="Telegram icon">
-          <svg class="footer__socials-icon" width="60" height="60">
-            <use href="./images/icons.svg#icon-telegram"></use>
-          </svg>
-        </a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+
+          <!--- FOOTER QR-code --->
+          <div class="footer__qr">
+            <h3 class="footer__qr-title">Наш постійний збір на виготовлення маскувальних сіток для ЗСУ</h3>
+            <a class="footer__qr-link link" href="https://send.monobank.ua/jar/3MGjwwxo1B" target="_blank"
+              rel="noreferrer noopener" aria-label="QR nets">
+              <!-- <svg class="footer__qr-icon" width="150" height="150">
+                <use href="./images/footer/qr-nets.svg"></use>
+              </svg> -->
+              <img class="footer__qr-img" src="./images/footer/qr-nets.webp" alt="image" width="150" height="150" loading="lazy">
+            </a>
+          </div>
+
+          <!--- FOOTER Socials --->
+          <div class="footer__socials">
+            <h3 class="footer__socials-title">Ми у соціальних мережах та месенджері</h3>
+            <ul class="footer__socials-list list">
+              <li>
+                <a class="footer__socials-link link" href="https://www.facebook.com/renovate.charity" target="_blank" rel="noreferrer noopener" aria-label="Facebook icon">
+                  <svg class="footer__socials-icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="footer__socials-link link" href="https://www.instagram.com/renovate_charity" target="_blank" rel="noreferrer noopener" aria-label="Instagram icon">
+                  <svg class="footer__socials-icon" width="60" height="60">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="footer__socials-link link" href="https://t.me/renovate_charity" target="_blank" rel="noreferrer noopener" aria-label="Telegram icon">
+                  <svg class="footer__socials-icon" width="60" height="60">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          
+          
+          </div>
+
+        </div>
+
+        <!--- Copyright --->
+        <div class="footer__copyright">
+          <p class="footer__copyright-text">&#169; 2024 - Renovate Charity Foundation. <br class="footer__br">
+        All Rights Reserved.
+          </p>
+        </div>
+
       </div>
+      
     </footer>
 
     <!-- Swiper JS з бібліотеки -->
