@@ -36,10 +36,12 @@
 */
 :root {
   --text-color-primary: rgb(84, 77, 77);
+  --text-color-accent: rgb(225, 113, 39);
   --background-color: rgb(255, 255, 255);
   --header-background-color: rgb(238, 224, 206);
   --header-nav-color: rgb(87, 80, 223);
   --header-nav-color-accent: rgb(225, 113, 39);
+  --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -150,6 +152,8 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid tomato;
+  outline-offset: -2px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -250,4 +254,36 @@ img {
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.icons__main-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.icons__main-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  max-width: 110px;
+}
+.icons__main-link:hover .icons__main-title, .icons__main-link:focus .icons__main-title {
+  color: var(--text-color-accent);
+}
+
+.icons__main-title {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4444444444;
+  text-align: center;
+  margin-bottom: 8px;
+  width: 100%;
+  color: var(--text-color-primary);
+  transition: var(--animation-base);
 }/*# sourceMappingURL=index.css.map */
