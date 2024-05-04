@@ -3,19 +3,29 @@
 // @media screen and (min-width: 1200px) {}
 
 .footer {
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 10px;
 
   // outline: 2px solid rgb(80, 206, 66);
   // outline-offset: -2px;
 
-  // @media screen and (min-width: 768px) {
-  //   padding-top: 10px;
-  //   padding-bottom: 10px;
-  // }
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+    // padding-bottom: 50px;
+  }
 
-  // @media screen and (min-width: 1200px) {
-  //   padding-top: 20px;
-  //   padding-bottom: 30px;
-  // }
+  @media screen and (min-width: 1200px) {
+    padding-top: 40px;
+    // padding-bottom: 60px;
+  }
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+
+  margin-bottom: 10px;
 }
