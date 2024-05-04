@@ -8,6 +8,9 @@
     <!-- Fonts -->
     <include src="./partials/base/fonts.html"></include>
 
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="./sass/index.scss" />
 
@@ -31,7 +34,6 @@
             <img class="header-logo" srcset="./images/logo.svg 1x, ./images/logo.svg 2x"
           src="./images/logo.svg" alt="bird" width="150" height="150" loading="lazy">
           </a>
-        
         
         <nav class="header__nav">
           <ul class="header__nav-list list">
@@ -57,41 +59,51 @@
         </nav>
 
       </div>
-    
-      <!-- <div class="header__container container">
-        <div class="header-text">
-          <p class="header-text__text">The world of</p>
-    
-          <div>
-            <h1 class="header-text__name">
-              <a class="link" href="./index.html">Viktoria Soltis-Doan</a>
-            </h1>
-            <p class="header-text__description">Author and illustrator of children's books</p>
-          </div>
-        </div>
-    
-        <a class="link" href="./index.html">
-          <img class="header-img" srcset="./images/header/img-bird-new@1x.png 1x, ./images/header/img-bird-new@2x.png 2x"
-            src="./images/header/img-bird-new@1x.png" alt="bird" width="75" height="57">
-        </a> -->
-    
-      <!-- </div> -->
     </header>
 
     <section class="section">
-      <div>
-        <h2>IMAGE GALLERY</h2>
-        <img class="main-img" srcset="./images/main-page/001.jpg 1x, ./images/main-page/001.jpg 2x"
-          src="./images/main-page/001.jpg" alt="image" width="150" height="150" loading="lazy">
-          <img class="main-img" srcset="./images/main-page/002.jpg 1x, ./images/main-page/002.jpg 2x"
-          src="./images/main-page/002.jpg" alt="image" width="150" height="150" loading="lazy">
-          <img class="main-img" srcset="./images/main-page/003.jpg 1x, ./images/main-page/003.jpg 2x"
-          src="./images/main-page/003.jpg" alt="image" width="150" height="150" loading="lazy">
-          <img class="main-img" srcset="./images/main-page/004.jpg 1x, ./images/main-page/004.jpg 2x"
-          src="./images/main-page/004.jpg" alt="image" width="150" height="150" loading="lazy">
+      
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-001@1.webp 1x, ./images/main-page/img-main-001@2.webp 2x" src="./images/main-page/img-main-001@1.webp" alt="image" width="300" height="300" loading="lazy" />
       </div>
-      <div>ICONS</div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-002@1.webp 1x, ./images/main-page/img-main-002@2.webp 2x" src="./images/main-page/img-main-002@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-003@1.webp 1x, ./images/main-page/img-main-003@2.webp 2x" src="./images/main-page/img-main-003@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-004@1.webp 1x, ./images/main-page/img-main-004@2.webp 2x" src="./images/main-page/img-main-004@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-001@1.webp 1x, ./images/main-page/img-main-001@2.webp 2x" src="./images/main-page/img-main-001@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-002@1.webp 1x, ./images/main-page/img-main-002@2.webp 2x" src="./images/main-page/img-main-002@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-003@1.webp 1x, ./images/main-page/img-main-003@2.webp 2x" src="./images/main-page/img-main-003@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img srcset="./images/main-page/img-main-004@1.webp 1x, ./images/main-page/img-main-004@2.webp 2x" src="./images/main-page/img-main-004@1.webp" alt="image" width="300" height="300" loading="lazy" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
     </section>
+
+        <!-- <img class="main-img" srcset="./images/main-page/001.jpg 1x, ./images/main-page/001.jpg 2x"
+        src="./images/main-page/001.jpg" alt="image" width="150" height="150" loading="lazy">
+        <img class="main-img" srcset="./images/main-page/002.jpg 1x, ./images/main-page/002.jpg 2x"
+          src="./images/main-page/002.jpg" alt="image" width="150" height="150" loading="lazy">
+        <img class="main-img" srcset="./images/main-page/003.jpg 1x, ./images/main-page/003.jpg 2x"
+          src="./images/main-page/003.jpg" alt="image" width="150" height="150" loading="lazy">
+        <img class="main-img" srcset="./images/main-page/004.jpg 1x, ./images/main-page/004.jpg 2x"
+          src="./images/main-page/004.jpg" alt="image" width="150" height="150" loading="lazy"> -->
+      <!-- <div>ICONS</div> -->
 
     <footer>
       <div>QR code</div>
@@ -116,6 +128,12 @@
         </a>
       </div>
     </footer>
+
+    <!-- Swiper JS з бібліотеки -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="./js/swiper-main-page.js" type="module"></script>
 
   </body>
 </html>
