@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RENOVATE CHARITY. About us.</title>
+  <title>RENOVATE CHARITY. Fund report.</title>
 
   <!-- Fonts -->
   <include src="./partials/base/fonts.html"></include>
@@ -11,11 +11,13 @@
   <!-- Custom styles -->
   <link rel="stylesheet" href="./sass/index.scss" />
 
+  <!-- Edit styles simplelightbox from GitHub -->
+  <link rel="stylesheet" href="./sass/components/_simple-lightbox.scss" />
+
   <!-- Favicon -->
   <include src="./partials/_favicon-1st-level.html"></include>
 
 </head>
-
 <body>
 
   <!-- HEADER -->
@@ -29,13 +31,21 @@
   </div>
   <!-- ТИМЧАСОВО -->
 
-  <h1 class="visually-hidden">About us</h1>
+  <h1 class="visually-hidden">Fund report</h1>
 
   <!-- BODY (information) -->
-  <include src="./partials/_about-us-body.html"></include>
+  <include src="./partials/_fund-report-body.html"></include>
 
   <!-- FOOTER -->
   <include src="./partials/_footer-1st-level.html"></include>
 
+  <!-- simplelightbox з бібліотеки STYLES -->
+  <!-- <link rel="stylesheet" href="/node_modules/simplelightbox/dist/simple-lightbox.min.css"> -->
+  
+  <!-- simplelightbox з бібліотеки JS -->
+  <script src="/node_modules/simplelightbox/dist/simple-lightbox.min.js"></script>
+  
+  <!-- simplelightbox custom JS -->
+  <script src="./js/01-report-gallery-lightbox.js" type="module"></script>
 </body>
 </html>
