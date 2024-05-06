@@ -185,8 +185,6 @@ img {
 }
 
 .header__container {
-  outline: 2px solid rgb(80, 206, 66);
-  outline-offset: -2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
