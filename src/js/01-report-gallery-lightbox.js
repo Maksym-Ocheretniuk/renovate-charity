@@ -23,6 +23,8 @@ function createListImg(images) {
                     src="${preview}"
                     alt="${description}"
                     loading="lazy"
+                    width="360px" 
+                    height="360px"
                 />
             </a>
         </li>`
