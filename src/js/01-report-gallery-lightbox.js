@@ -35,8 +35,8 @@ function createListImg(images) {
 // бібліотека SimpleLightbox
 const lightbox = new SimpleLightbox('.reports-gallery a', {
   // captions: false,
-  captionsData: 'alt',
-  captionDelay: 1000,
+  // captionsData: 'alt',
+  // captionDelay: 1000,
   // captionPosition: top,
   // nav: true,
   // close: true,
