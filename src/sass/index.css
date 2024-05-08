@@ -278,7 +278,7 @@ img {
 @media screen and (min-width: 1200px) {
   .icons__main-list {
     max-width: 100%;
-    gap: 20px;
+    gap: 0px;
   }
 }
 
@@ -288,14 +288,24 @@ img {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  max-width: 110px;
+  width: 250px;
 }
 .icons__main-link:hover .icons__main-title, .icons__main-link:focus .icons__main-title {
   color: var(--text-color-accent);
 }
+@media screen and (min-width: 768px) {
+  .icons__main-link {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icons__main-link {
+    width: 190px;
+  }
+}
 
 .icons__img {
-  width: 100%;
+  width: 200px;
   height: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -315,6 +325,7 @@ img {
   font-size: 16px;
   line-height: 1.3333333333;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
   color: var(--text-color-primary);
   transition: var(--animation-base);
@@ -327,8 +338,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .icons__main-title {
-    font-size: 18px;
-    line-height: 1.125;
+    font-size: 16px;
+    line-height: 1.1428571429;
   }
 }
 
