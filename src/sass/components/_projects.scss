@@ -3,7 +3,7 @@
 // @media screen and (min-width: 768px) {}
 // @media screen and (min-width: 1200px) {}
 
-.progects__title {
+.projects__title {
   font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -25,7 +25,7 @@
   }
 }
 
-.progects__list {
+.projects__list {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
   }
 }
 
-.progects__item {
+.projects__item {
   margin: 0 auto 25px auto;
   padding: 15px;
 
@@ -65,7 +65,7 @@
   }
 }
 
-.progects__item-revers {
+.projects__item-revers {
   // @media screen and (min-width: 768px) {}
   @media screen and (min-width: 1200px) {
     flex-direction: row-reverse;
@@ -73,7 +73,7 @@
   }
 }
 
-.progects__item-img {
+.projects__item-img {
   margin: 0 auto 10px auto;
 
   border-radius: 10px;
@@ -87,7 +87,7 @@
   }
 }
 
-.progects__item-description {
+.projects__item-description {
   font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;

@@ -731,7 +731,7 @@ img {
   cursor: zoom-in;
 }
 
-.progects__title {
+.projects__title {
   font-family: "Montserrat", "Roboto", Verdana, sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -742,13 +742,13 @@ img {
   margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
-  .progects__title {
+  .projects__title {
     font-size: 22px;
     line-height: 1.4666666667;
   }
 }
 @media screen and (min-width: 1200px) {
-  .progects__title {
+  .projects__title {
     font-size: 28px;
     line-height: 1.2727272727;
     margin-bottom: 20px;
@@ -756,7 +756,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .progects__list {
+  .projects__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -765,7 +765,7 @@ img {
   }
 }
 
-.progects__item {
+.projects__item {
   margin: 0 auto 25px auto;
   padding: 15px;
   border: 1px solid rgb(223, 206, 206);
@@ -773,16 +773,16 @@ img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: var(--animation-base);
 }
-.progects__item:hover, .progects__item:focus {
+.projects__item:hover, .projects__item:focus {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 @media screen and (min-width: 768px) {
-  .progects__item {
+  .projects__item {
     max-width: 330px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .progects__item {
+  .projects__item {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -794,26 +794,26 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .progects__item-revers {
+  .projects__item-revers {
     flex-direction: row-reverse;
     background-color: rgb(230, 230, 210);
   }
 }
 
-.progects__item-img {
+.projects__item-img {
   margin: 0 auto 10px auto;
   border-radius: 10px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 @media screen and (min-width: 1200px) {
-  .progects__item-img {
+  .projects__item-img {
     max-width: 570px;
     margin-bottom: 0;
     border-radius: 20px;
   }
 }
 
-.progects__item-description {
+.projects__item-description {
   font-family: "Montserrat", "Roboto", Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -824,13 +824,13 @@ img {
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
-  .progects__item-description {
+  .projects__item-description {
     font-size: 16px;
     line-height: 1.3333333333;
   }
 }
 @media screen and (min-width: 1200px) {
-  .progects__item-description {
+  .projects__item-description {
     font-size: 24px;
     line-height: 1.2;
     margin-bottom: 20px;
