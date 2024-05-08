@@ -25,18 +25,8 @@ export const reportsGalleryItems = [
     description: "Звіт БФ «Заново» за зиму 2022-2023",
   },
   {
-    preview: Report_05_prev,
-    original: Report_05_orig,
-    description: "Звіт БФ «Заново» за осінь 2022",
-  },
-  {
-    preview: Report_04_prev,
-    original: Report_04_orig,
-    description: "Звіт БФ «Заново» за осінь 2022",
-  },
-  {
-    preview: Report_03_prev,
-    original: Report_03_orig,
+    preview: Report_01_prev,
+    original: Report_01_orig,
     description: "Звіт БФ «Заново» за осінь 2022",
   },
   {
@@ -45,8 +35,18 @@ export const reportsGalleryItems = [
     description: "Звіт БФ «Заново» за осінь 2022",
   },
   {
-    preview: Report_01_prev,
-    original: Report_01_orig,
+    preview: Report_03_prev,
+    original: Report_03_orig,
+    description: "Звіт БФ «Заново» за осінь 2022",
+  },
+  {
+    preview: Report_04_prev,
+    original: Report_04_orig,
+    description: "Звіт БФ «Заново» за осінь 2022",
+  },
+  {
+    preview: Report_05_prev,
+    original: Report_05_orig,
     description: "Звіт БФ «Заново» за осінь 2022",
   },
 ]
