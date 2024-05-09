@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
+    "npm": "^10.7.0",
     "simplelightbox": "^2.14.3"
   },
   "devDependencies": {
