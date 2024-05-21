@@ -381,7 +381,7 @@
       </path>
     </symbol>
 
-    <symbol id="icon-donate" viewBox="0 0 32 32">
+    <symbol id="icon-events" viewBox="0 0 32 32">
       <path fill="#fcb316" style="fill: var(--color3, #fcb316)"
         d="M7.862 27.292l-1.873-15.276 20.29-0.966-0.385 16.080z"></path>
       <path fill="#659ad2" style="fill: var(--color44, #659ad2)" d="M6.654 9.509l-2.394 2.576 23.48-0.339-1.547-2.915z">
@@ -445,79 +445,6 @@
       <path fill="#fcbb76" style="fill: var(--color46, #fcbb76)"
         d="M14.987 6.879c-0.007-0.033-0.010-0.063-0.017-0.096-0.003-0.013-0.003-0.030-0.010-0.043-0.010-0.037-0.030-0.073-0.046-0.106-0.007-0.013-0.013-0.023-0.020-0.037-0.023-0.040-0.056-0.070-0.093-0.096-0.056-0.037-0.126-0.040-0.189-0.027-0.056 0.013-0.1 0.046-0.133 0.090-0.023 0.030-0.040 0.056-0.050 0.096-0.003 0.013-0.003 0.027-0.007 0.040-0.007 0.037-0.020 0.076-0.017 0.113 0 0.017 0.003 0.033 0.007 0.046 0.003 0.033 0.010 0.063 0.013 0.096 0.007 0.060 0.010 0.1 0.040 0.153s0.060 0.073 0.106 0.106c0.027 0.020 0.050 0.027 0.083 0.040 0.043 0.013 0.090 0.013 0.133 0s0.080-0.033 0.11-0.063c0.020-0.017 0.043-0.053 0.060-0.080 0.010-0.023 0.020-0.046 0.030-0.066 0.010-0.027 0.017-0.053 0.013-0.083 0-0.020-0.010-0.053-0.013-0.083z">
       </path>
-    </symbol>
-
-    <symbol id="icon-qr-nets" viewBox="0 0 32 32">
-      <path fill="#faf205" style="fill: var(--color1, #faf205)" d="M10 2h-8v8h-2v-10h10z"></path>
-      <path fill="#faf205" style="fill: var(--color1, #faf205)" d="M30 10v-8h-8v-2h10v10z"></path>
-      <path fill="#faf205" style="fill: var(--color1, #faf205)" d="M22 30h8v-8h2v10h-10z"></path>
-      <path fill="#faf205" style="fill: var(--color1, #faf205)" d="M2 22v8h8v2h-10v-10z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M22.373 25.727h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M24.386 25.727h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.727 25.727h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.069 25.727h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M3.589 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M4.931 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M5.602 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M6.273 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M7.614 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M8.956 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M9.627 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M10.298 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M11.639 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M12.31 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M12.981 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M13.652 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M14.994 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M16.335 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M17.677 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M19.019 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M21.031 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M22.373 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M23.044 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M23.715 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.057 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.727 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.069 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.74 26.398h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M3.589 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M7.614 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M9.627 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M14.323 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M15.665 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M16.335 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M17.006 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M17.677 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M18.348 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M21.031 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M21.702 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M22.373 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M23.044 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M24.386 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.057 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.727 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.069 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.74 27.069h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M3.589 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M4.26 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M4.931 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M5.602 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M6.273 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M6.943 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M7.614 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M9.627 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M12.981 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M15.665 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M17.006 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M17.677 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M18.348 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M19.019 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M21.031 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M23.044 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.057 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M25.727 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M26.398 27.74h0.671v0.671h-0.671v-0.671z"></path>
-      <path fill="#063a8e" style="fill: var(--color2, #063a8e)" d="M27.74 27.74h0.671v0.671h-0.671v-0.671z"></path>
     </symbol>
 
     <symbol id="icon-facebook" viewBox="0 0 32 32">
