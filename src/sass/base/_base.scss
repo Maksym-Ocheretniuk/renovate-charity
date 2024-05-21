@@ -26,3 +26,7 @@ html {
     /* приховати тільки горизонтальну смугу прокручування */
     overflow-x: hidden;
   }
+
+  body._lock {
+    overflow: hidden;
+  }
