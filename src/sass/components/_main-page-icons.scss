@@ -16,13 +16,18 @@
 
   gap: 10px;
 
+  & li:nth-of-type(4)h2,
+  & li:nth-of-type(5)h2 {
+      height: 63px;
+    }
+
   @media screen and (min-width: 768px) {
     gap: 20px;
 
     & li:nth-of-type(4)h2,
     & li:nth-of-type(5)h2,
     & li:nth-of-type(6)h2 {
-      height: 65px;
+      height: 63px;
     }
   }
   @media screen and (min-width: 1200px) {
