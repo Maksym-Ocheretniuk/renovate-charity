@@ -829,6 +829,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.1428571429;
+  font-style: normal;
   text-transform: uppercase;
   color: var(--text-color-primary);
 }
