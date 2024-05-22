@@ -11,8 +11,11 @@
 @import './base/section';
 @import './base/container';
 
-// components style
+// header style
 @import './components/header';
+@import './components/header-menu';
+@import './components/header-sub-menu';
+
 @import './components/main-page-swiper';
 @import './components/main-page-icons';
 // @import './components/footer';

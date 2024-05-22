@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,9 +28,79 @@
 
     <!-- HEADER -->
     <!-- <include src="./partials/_header-1st-level.html"></include> -->
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="./index.html">
+          <img srcset="./images/favicon.png 1x, ./images/favicon.png 2x" src="./images/favicon.png" alt="logo" width="50" height="50" loading="lazy">
+        </a>
+
+        <div class="header__menu menu">
+          <div class="menu__icon">
+            <span></span>
+          </div>
+
+          <nav class="menu__body">
+            <ul class="menu__list list">
+              <li class="menu__item">
+                <a class="menu__link link" href="./index.html">
+                  Фонд "ЗАНОВО"
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link link" href="#">
+                  Проєкти
+                </a>
+                <span class="menu__arrow"></span>
+                <ul class="menu__sub-list list">
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="./unit-reconstruction.html">
+                      Відбудова країни
+                    </a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="">Допомога ЗСУ</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="">Сили ССО</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="">Сітко-маскувальні сили</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="">Гуманітарна допомога</a>
+                  </li>
+                  <li class="menu__sub-item">
+                    <a class="menu__sub-link link" href="">Благодійні заходи</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link link" href="./about-us.html">
+                  Про нас
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link link" href="./fund-report.html">
+                  Звіти фонду
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link link" href="">Контакти</a>
+              </li>
+              <li class="menu__item donat">
+                <a class="menu__link link" href="https://send.monobank.ua/jar/3MGjwwxo1B">Зробити донат</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+        
+        
+      </div>
+    </header>
 
     <!-- ТИМЧАСОВО -->
-    <div class="container">
+    <!-- <div class="container">
       <a class="header__nav-link link" href="./index.html">Головна</a>
       <a class="header__nav-link link" href="./about-us.html">Про нас</a>
     </div>
@@ -41,7 +111,7 @@
     <div class="container">
       <a class="header__nav-link link" href="./unit-candle.html">Свічки</a>
       <a class="header__nav-link link" href="./unit-reconstruction.html">Відбудова</a>
-    </div>
+    </div> -->
     <!-- ТИМЧАСОВО -->
 
     <!-- Swiper -->
@@ -66,7 +136,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Swiper JS -->
-  <script src="./js/swiper-main-page.js" type="module"></script>
+  <script src="./index.js" type="module"></script>
 
   </body>
 </html>
