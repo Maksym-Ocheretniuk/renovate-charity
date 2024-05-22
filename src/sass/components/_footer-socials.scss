@@ -29,12 +29,12 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: rgb(238, 238, 8);
-  transition: var(--animation-base);
+  background-color: var(--footer-socials-icon-bcg-color);
 
   &:hover .footer__socials-icon,
   &:focus .footer__socials-icon {
     fill: var(--footer-socials-icon-fill-accent);
+    transition: var(--animation-base);
   }
 }
 
