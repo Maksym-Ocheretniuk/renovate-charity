@@ -1,5 +1,6 @@
 // визначення пристроїв з/без touchScreen
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  
   // код для мобильних пристроїв з touchScreen
   document.body.classList.add('_touch')
 
@@ -13,13 +14,10 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     }
   }
 } else {
+  
   // код для інших пристроїв без touchScreen
   document.body.classList.add('_pc')
 }
-
-// function onMenuArrowClick (e) {
-//   menuArrow.parentElement.classList.toggle('_active')
-// }
 
 // Menu burger
 const iconMenu = document.querySelector('.menu__icon')
