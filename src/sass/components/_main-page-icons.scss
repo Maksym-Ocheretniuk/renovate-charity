@@ -13,13 +13,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   gap: 10px;
 
-  & li:nth-of-type(4)h2,
-  & li:nth-of-type(5)h2 {
+  @media screen and (min-width: 480px) {
+    & li:nth-of-type(4)h2 {
       height: 63px;
     }
+  }
 
   @media screen and (min-width: 768px) {
     gap: 20px;
@@ -56,20 +56,17 @@
   &:hover,
   &:focus {
     scale: 1.05;
+    border-radius: 10px;
+    outline: 0.5px solid rgba(0, 0, 0, 0.37);
+    outline-offset: -0.5px;
+    box-shadow: rgba(84, 79, 79, 0.367) 0px 7px 29px 0px;
+    background-color: rgba(225, 113, 39, 0.155);
   }
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     gap: 10px;
 
-    &:hover,
-    &:focus {
-      border-radius: 10px;
-      outline: 0.5px solid rgba(0, 0, 0, 0.37);
-      outline-offset: -0.5px;
-      box-shadow: rgba(84, 79, 79, 0.367) 0px 7px 29px 0px;
-      background-color: rgba(225, 113, 39, 0.155);
-    }
   }
   @media screen and (min-width: 1200px) {
     gap: 20px;

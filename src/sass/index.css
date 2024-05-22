@@ -562,8 +562,10 @@ img {
   justify-content: center;
   gap: 10px;
 }
-.icons__main-list li:nth-of-type(4) h2, .icons__main-list li:nth-of-type(5) h2 {
-  height: 63px;
+@media screen and (min-width: 480px) {
+  .icons__main-list li:nth-of-type(4) h2 {
+    height: 63px;
+  }
 }
 @media screen and (min-width: 768px) {
   .icons__main-list {
@@ -591,18 +593,16 @@ img {
 }
 .icons__main-link:hover, .icons__main-link:focus {
   scale: 1.05;
+  border-radius: 10px;
+  outline: 0.5px solid rgba(0, 0, 0, 0.37);
+  outline-offset: -0.5px;
+  box-shadow: rgba(84, 79, 79, 0.367) 0px 7px 29px 0px;
+  background-color: rgba(225, 113, 39, 0.155);
 }
 @media screen and (min-width: 768px) {
   .icons__main-link {
     flex-direction: row;
     gap: 10px;
-  }
-  .icons__main-link:hover, .icons__main-link:focus {
-    border-radius: 10px;
-    outline: 0.5px solid rgba(0, 0, 0, 0.37);
-    outline-offset: -0.5px;
-    box-shadow: rgba(84, 79, 79, 0.367) 0px 7px 29px 0px;
-    background-color: rgba(225, 113, 39, 0.155);
   }
 }
 @media screen and (min-width: 1200px) {
