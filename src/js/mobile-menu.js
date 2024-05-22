@@ -17,6 +17,16 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   
   // код для інших пристроїв без touchScreen
   document.body.classList.add('_pc')
+
+  let menuArrows = document.querySelectorAll('.menu__arrow')
+  if (menuArrows.length > 0) {
+    for (let index = 0; index < menuArrows.length; index++) {
+      const menuArrow = menuArrows[index];
+      menuArrow.addEventListener("click", function (e) {
+        menuArrow.parentElement.classList.toggle('_active')
+      })
+    }
+  }
 }
 
 // Menu burger
