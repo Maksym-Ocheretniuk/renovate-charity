@@ -3,15 +3,14 @@
 const reconstructionButtons = document.querySelectorAll('.reconstruction__btn[data-goto]') || document.querySelectorAll('.reconstruction__btn-title[data-goto]') || document.querySelectorAll('.reconstruction__btn-city[data-goto]');
 
 if (reconstructionButtons.length > 0) {
-  
   reconstructionButtons.forEach(reconstructionButton => {
     reconstructionButton.addEventListener("click", onReconstructionClick);
     }
   )
 
   function onReconstructionClick(e) {
+    e.preventDefault();
     
-
     const reconstructionButton = e.target;
     
     if (reconstructionButton.dataset.goto && document.querySelector(reconstructionButton.dataset.goto)) {
@@ -23,7 +22,6 @@ if (reconstructionButtons.length > 0) {
         top: gotoBlockValue,
         behavior: 'smooth'
       });
-      e.preventDefault();
     }
   }
 }
