@@ -1,0 +1,123 @@
+// --- page "Humanitarian help" style ---
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1200px) {}
+
+.humanitarian__title {
+  font-family: 'Montserrat', Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  
+  padding-top: 70px;
+  
+  color: yellow;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+.humanitarian__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
+    // @media screen and (min-width: 1200px) {}
+}
+
+.humanitarian__item {
+  padding: 15px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
+
+  @media screen and (min-width: 768px) {
+    padding: 20px;
+  }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      gap: 15px;
+    }
+}
+
+.humanitarian__item-reverse {
+  flex-direction: row-reverse;
+}
+
+.humanitarian__description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 15px;
+  }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+      justify-content: center;
+    }
+}
+
+.humanitarian__description {
+  font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  text-align: justify;
+  // text-indent: 4%;
+
+  color: var(--text-color-primary);
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: calc(16 / 12);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 17px;
+    line-height: calc(20 / 16);
+    text-align: left;
+  }
+}
+
+.humanitarian__img-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+  @media screen and (min-width: 768px) {
+    gap: 15px;
+  }
+    // @media screen and (min-width: 1200px) {}
+}
+
+.humanitarian__img {
+  min-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 310px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 365px;
+  }
+}
+
