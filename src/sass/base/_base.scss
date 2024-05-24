@@ -1,32 +1,33 @@
 // плавна прокрутка по сайту
 html {
-    scroll-behavior: smooth;
-  }
-  
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-  
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    height: 100%;
-  
-    color: var(--text-color-primary);
-    background-color: var(--background-color);
-  
-    /* приховати тільки горизонтальну смугу прокручування */
-    overflow-x: hidden;
-  }
+  scroll-behavior: smooth;
+  scroll-padding-top: 68px;
+}
 
-  body._lock {
-    overflow: hidden;
-  }
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  height: 100%;
+
+  color: var(--text-color-primary);
+  background-color: var(--background-color);
+
+  /* приховати тільки горизонтальну смугу прокручування */
+  overflow-x: hidden;
+}
+
+body._lock {
+  overflow: hidden;
+}
