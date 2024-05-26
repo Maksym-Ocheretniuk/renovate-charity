@@ -38,11 +38,11 @@
   --footer-background-color: rgb(0, 30, 90);
   --footer-color-accent: hsl(60, 100%, 50%);
   --footer-border-vertic: 4px solid rgb(82, 87, 238);
-  --footer-border-goriz: 1px solid rgb(146, 132, 132);
   --footer-socials-icon-fill: rgba(0, 30, 90, 0.959);
   --footer-socials-icon-bcg-color: white;
   --footer-socials-icon-fill-accent: hsl(60, 100%, 50%);
   --footer-copyright-text-color: rgb(146, 132, 132);
+  --footer-border-goriz-color: rgb(146, 132, 132);
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -152,6 +152,10 @@ img {
     padding-top: 30px;
     padding-bottom: 20px;
   }
+}
+
+.section-gorizont-line {
+  border-bottom: 2px solid var(--footer-border-goriz-color);
 }
 
 .container {
@@ -1019,7 +1023,7 @@ img {
 
 .footer__copyright {
   padding: 20px 20px 10px 20px;
-  border-top: var(--footer-border-goriz);
+  border-top: 1px solid var(--footer-border-goriz-color);
 }
 @media screen and (min-width: 768px) {
   .footer__copyright {
@@ -1739,10 +1743,6 @@ img {
   .reconstruction__btn-city {
     font-size: 14px;
   }
-}
-
-.donate__section {
-  border-bottom: 2px solid #c57575;
 }
 
 .donate__title {
