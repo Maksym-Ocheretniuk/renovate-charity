@@ -4,3 +4,5 @@
 import './js/mobile-menu'
 
 import './js/scroll-to-section'
+
+import './js/correspondent-banks'
