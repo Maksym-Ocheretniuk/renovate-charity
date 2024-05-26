@@ -33,12 +33,11 @@
   --background-color: rgb(0, 30, 90);
   --background-color-accent: rgb(0, 26, 78);
   --header-background-color: rgb(0, 30, 90);
+  --header-background-color-accent: rgb(0, 26, 78);
   --header-color-primary: rgb(239, 229, 229);
   --header-nav-color-accent: rgb(255, 255, 0);
-  --header-sub-menu-bcg-color: rgba(16, 52, 126, 0.793);
   --footer-background-color: rgb(0, 30, 90);
   --footer-color-accent: rgb(255, 255, 0);
-  --footer-border-vertic: 4px solid rgb(82, 87, 238);
   --footer-socials-icon-fill: rgba(0, 30, 90, 0.959);
   --footer-socials-icon-bcg-color: white;
   --footer-socials-icon-fill-accent: hsl(60, 100%, 50%);
@@ -328,7 +327,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .menu__list {
@@ -434,14 +433,12 @@ img {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: var(--header-sub-menu-bcg-color);
   padding: 15px 15px 15px 15px;
   width: 160px;
 }
 @media screen and (max-width: 767px) {
   .menu__sub-list {
     position: relative;
-    background-color: var(--header-sub-menu-bcg-color);
     flex: 1 1 100%;
     margin: 20px 0 0 0;
     width: 150px;
@@ -454,6 +451,7 @@ img {
     visibility: hidden;
     pointer-events: 0;
     transition: var(--animation-base);
+    background-color: var(--header-background-color-accent);
   }
 }
 
