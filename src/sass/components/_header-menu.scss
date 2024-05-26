@@ -2,9 +2,9 @@
 // @media screen and (min-width: 768px) {}
 // @media screen and (min-width: 1200px) {}
 
-.header__menu {}
+// .header__menu {}
 
-.menu {}
+// .menu {}
 
 .menu__icon {
   display: block;
@@ -20,9 +20,20 @@
   // @media screen and (min-width: 1200px) {}
 }
 
+.menu__icon:hover span,
+.menu__icon:focus span,
+.menu__icon:hover::before,
+.menu__icon:focus::before,
+.menu__icon:hover::after,
+.menu__icon:focus::after {
+  background-color: var(--header-nav-color-accent);
+  transition: color 250ms;
+}
+
 .menu__icon span,
 .menu__icon::before,
 .menu__icon::after {
+
   @media screen and (max-width: 767px) {
     left: 0;
     position: absolute;

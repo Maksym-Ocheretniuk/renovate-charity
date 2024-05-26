@@ -28,15 +28,15 @@
 
 :root {
   --text-color-primary: rgb(239, 229, 229);
-  --text-color-accent: rgb(225, 113, 39);
+  --text-color-accent: rgb(255, 255, 0);
   --text-color-dark: rgb(67, 53, 53);
   --background-color: rgb(0, 30, 90);
   --header-background-color: rgb(0, 30, 90);
   --header-color-primary: rgb(239, 229, 229);
-  --header-nav-color-accent: rgb(225, 113, 39);
+  --header-nav-color-accent: rgb(255, 255, 0);
   --header-sub-menu-bcg-color: rgba(16, 52, 126, 0.793);
   --footer-background-color: rgb(0, 30, 90);
-  --footer-color-accent: hsl(60, 100%, 50%);
+  --footer-color-accent: rgb(255, 255, 0);
   --footer-border-vertic: 4px solid rgb(82, 87, 238);
   --footer-socials-icon-fill: rgba(0, 30, 90, 0.959);
   --footer-socials-icon-bcg-color: white;
@@ -219,6 +219,16 @@ img {
   .menu__icon {
     display: none;
   }
+}
+
+.menu__icon:hover span,
+.menu__icon:focus span,
+.menu__icon:hover::before,
+.menu__icon:focus::before,
+.menu__icon:hover::after,
+.menu__icon:focus::after {
+  background-color: var(--header-nav-color-accent);
+  transition: color 250ms;
 }
 
 @media screen and (max-width: 767px) {
@@ -1061,27 +1071,24 @@ img {
 }
 
 .about__title {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
+  font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4285714286;
-  letter-spacing: 0.02em;
+  font-size: 26px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.15em;
   text-align: center;
-  color: var(--text-color-primary);
-  margin-top: 70px;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding-top: 70px;
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .about__title {
-    font-size: 22px;
-    line-height: 1.4666666667;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .about__title {
-    font-size: 28px;
-    line-height: 1.2727272727;
-    margin-bottom: 20px;
+    font-size: 40px;
   }
 }
 
@@ -1183,27 +1190,24 @@ img {
 }
 
 .reports__title {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
+  font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4285714286;
-  letter-spacing: 0.02em;
+  font-size: 26px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.15em;
   text-align: center;
-  color: var(--text-color-primary);
-  margin-top: 70px;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding-top: 70px;
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .reports__title {
-    font-size: 22px;
-    line-height: 1.4666666667;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .reports__title {
-    font-size: 28px;
-    line-height: 1.2727272727;
-    margin-bottom: 20px;
+    font-size: 40px;
   }
 }
 
@@ -1400,28 +1404,24 @@ img {
 }
 
 .candle__title {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
+  font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.4285714286;
-  letter-spacing: 0.02em;
+  font-size: 26px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.15em;
   text-align: center;
-  color: var(--text-color-primary);
   text-transform: uppercase;
-  margin-top: 70px;
-  margin-bottom: 10px;
+  padding-top: 70px;
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .candle__title {
-    font-size: 22px;
-    line-height: 1.4666666667;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .candle__title {
-    font-size: 28px;
-    line-height: 1.2727272727;
-    margin-bottom: 20px;
+    font-size: 40px;
   }
 }
 
@@ -1503,9 +1503,9 @@ img {
 .reconstruction__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.3333333333;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   text-align: center;
   text-transform: uppercase;
   padding-top: 70px;
@@ -1513,12 +1513,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .reconstruction__title {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .reconstruction__title {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -1748,9 +1748,9 @@ img {
 .donate__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.3333333333;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   text-align: center;
   text-transform: uppercase;
   padding-top: 70px;
@@ -1758,12 +1758,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .donate__title {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .donate__title {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -1781,7 +1781,7 @@ img {
 @media screen and (min-width: 768px) {
   .donate-nets__title,
   .donate-bank__title {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1965,22 +1965,22 @@ img {
 .humanitarian__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 26px;
   line-height: 1.3333333333;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   text-align: center;
   text-transform: uppercase;
   padding-top: 70px;
-  color: yellow;
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .humanitarian__title {
-    font-size: 2rem;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .humanitarian__title {
-    font-size: 3rem;
+    font-size: 40px;
   }
 }
 
