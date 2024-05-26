@@ -35,14 +35,14 @@
 .footer__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
 
   // outline: 2px solid rgb(57, 70, 191);
   // outline-offset: -2px;
 
   @media screen and (min-width: 768px) {
-    gap: 45px;
+    gap: 35px;
   }
 
   @media screen and (min-width: 1200px) {

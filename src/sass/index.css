@@ -36,11 +36,12 @@
   --header-nav-color-accent: rgb(225, 113, 39);
   --header-sub-menu-bcg-color: rgba(16, 52, 126, 0.793);
   --footer-background-color: rgb(0, 30, 90);
+  --footer-color-accent: hsl(60, 100%, 50%);
   --footer-border-vertic: 4px solid rgb(82, 87, 238);
   --footer-border-goriz: 1px solid rgb(146, 132, 132);
   --footer-socials-icon-fill: rgba(0, 30, 90, 0.959);
-  --footer-socials-icon-bcg-color: rgb(238, 238, 8);
-  --footer-socials-icon-fill-accent: rgb(225, 113, 39);
+  --footer-socials-icon-bcg-color: white;
+  --footer-socials-icon-fill-accent: hsl(60, 100%, 50%);
   --footer-copyright-text-color: rgb(146, 132, 132);
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -773,12 +774,12 @@ img {
 .footer__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
 }
 @media screen and (min-width: 768px) {
   .footer__wrapper {
-    gap: 45px;
+    gap: 35px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -812,7 +813,7 @@ img {
   font-style: normal;
   text-align: center;
   text-transform: uppercase;
-  color: var(--text-color-primary);
+  color: var(--footer-color-accent);
 }
 @media screen and (min-width: 768px) {
   .footer__address-title {
@@ -869,7 +870,7 @@ img {
 .footer__address-mail:hover, .footer__address-mail:focus,
 .footer__address-tel:hover,
 .footer__address-tel:focus {
-  color: var(--text-color-accent);
+  color: var(--footer-color-accent);
 }
 @media screen and (min-width: 768px) {
   .footer__address-mail,
@@ -957,8 +958,13 @@ img {
   border-radius: 50%;
   background-color: var(--footer-socials-icon-bcg-color);
 }
+.footer__socials-link:hover, .footer__socials-link:focus {
+  background-color: var(--footer-background-color);
+  border: 2px solid var(--footer-color-accent);
+  transition: var(--animation-base);
+}
 .footer__socials-link:hover .footer__socials-icon, .footer__socials-link:focus .footer__socials-icon {
-  fill: var(--footer-socials-icon-fill-accent);
+  fill: var(--footer-color-accent);
   transition: var(--animation-base);
 }
 
@@ -997,7 +1003,7 @@ img {
   transition: var(--animation-base);
 }
 .footer__docs-link:hover, .footer__docs-link:focus {
-  color: var(--text-color-accent);
+  color: var(--footer-color-accent);
   scale: 1.05;
 }
 @media screen and (min-width: 768px) {

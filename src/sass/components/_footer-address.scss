@@ -27,7 +27,7 @@
   text-align: center;
   text-transform: uppercase;
   
-  color: var(--text-color-primary);
+  color: var(--footer-color-accent);
 
   @media screen and (min-width: 768px) {
     font-size: 30px;
@@ -84,7 +84,7 @@
 
 	&:hover,
 	&:focus {
-		color: var(--text-color-accent);
+		color: var(--footer-color-accent);
 	}
 
   @media screen and (min-width: 768px) {

@@ -31,11 +31,19 @@
   border-radius: 50%;
   background-color: var(--footer-socials-icon-bcg-color);
 
-  &:hover .footer__socials-icon,
-  &:focus .footer__socials-icon {
-    fill: var(--footer-socials-icon-fill-accent);
+  &:hover,
+  &:focus {
+    background-color: var(--footer-background-color);
+    border: 2px solid var(--footer-color-accent);
     transition: var(--animation-base);
   }
+
+  &:hover .footer__socials-icon,
+  &:focus .footer__socials-icon {
+    fill: var(--footer-color-accent);
+    transition: var(--animation-base);
+  }
+
 }
 
 .footer__socials-icon {
