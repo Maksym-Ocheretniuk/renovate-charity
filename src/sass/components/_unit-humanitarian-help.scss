@@ -37,9 +37,9 @@
 
 .humanitarian__item {
   padding: 15px;
-  border: 2px solid yellow;
+  
+  border: 2px solid var(--text-color-accent);
   border-radius: 10px;
-
   box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
 
   @media screen and (min-width: 768px) {

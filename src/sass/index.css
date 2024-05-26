@@ -31,6 +31,7 @@
   --text-color-accent: rgb(255, 255, 0);
   --text-color-dark: rgb(67, 53, 53);
   --background-color: rgb(0, 30, 90);
+  --background-color-accent: rgb(0, 26, 78);
   --header-background-color: rgb(0, 30, 90);
   --header-color-primary: rgb(239, 229, 229);
   --header-nav-color-accent: rgb(255, 255, 0);
@@ -1685,15 +1686,17 @@ img {
   gap: 5px;
   width: 260px;
   padding: 10px 15px;
-  border: 0.5px solid rgb(213, 167, 167);
+  border: 2px solid var(--text-color-accent);
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
-  background-color: rgba(10, 64, 10, 0.675);
   transition: var(--animation-base);
 }
 .reconstruction__btn:hover, .reconstruction__btn:focus {
-  background-color: rgba(12, 77, 12, 0.675);
+  background-color: var(--background-color-accent);
   box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
+}
+.reconstruction__btn:hover .reconstruction__btn-title, .reconstruction__btn:focus .reconstruction__btn-title {
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .reconstruction__btn {
@@ -1711,13 +1714,13 @@ img {
   font-family: "Montserrat", "Roboto", Verdana, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.3333333333;
+  line-height: 1.0666666667;
   letter-spacing: 0.01em;
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
   .reconstruction__btn-title {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1997,7 +2000,7 @@ img {
 
 .humanitarian__item {
   padding: 15px;
-  border: 2px solid yellow;
+  border: 2px solid var(--text-color-accent);
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
 }
