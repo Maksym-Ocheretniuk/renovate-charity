@@ -1967,6 +1967,44 @@ img {
   }
 }
 
+.donate-bank__correspondent-title-wrapper {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3333333333;
+}
+
+.donate-bank__correspondent-btn-details {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  padding: 5px 15px;
+  color: var(--text-color-dark);
+  background-color: var(--text-color-accent);
+  border-radius: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.donate-bank__correspondent-block .donate-bank__correspondent-btn-download {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  padding: 5px 15px;
+  color: var(--text-color-dark);
+  background-color: var(--text-color-accent);
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.donate-bank__correspondent-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--animation-base);
+}
+
 .humanitarian__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
