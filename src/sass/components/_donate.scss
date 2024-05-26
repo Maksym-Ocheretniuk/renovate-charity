@@ -90,16 +90,30 @@
 }
 
 .donate-nets__link-block {
-  width: 360px;
+  min-width: 310px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
 
-  border: 0.5px solid rgb(213, 167, 167);
+  border: 2px solid var(--text-color-accent);
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.427) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
 
-  background-color: rgba(10, 64, 10, 0.675);
+  // background-color: rgba(10, 64, 10, 0.675);
+
+  &:hover,
+  &:focus {
+    background-color: var(--background-color-accent);
+    box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
+  }
+
+  &:hover .donate-nets__link,
+  &:focus .donate-nets__link,
+  &:hover .donate-nets__link-description,
+  &:focus .donate-nets__link-description {
+    color: var(--text-color-accent);
+    transition: var(--animation-base);
+  }
 
   @media screen and (min-width: 768px) {
     width: 410px;
@@ -129,16 +143,10 @@
   display: inline-block;
   font-family: 'Montserrat', Verdana, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: calc(16 / 12);
 
   color: var(--text-color-primary);
-
-  &:hover,
-  &:focus {
-    transition: var(--animation-base);
-    color: var(--text-color-accent);
-  }
 
   @media screen and (min-width: 768px) {
     font-size: 16px;
@@ -163,7 +171,8 @@
 }
 
 .donate-bank__details-wrapper {
-  width: 360px;
+  min-width: 310px;
+  max-width: 417px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -175,10 +184,10 @@
   background-color: rgba(10, 64, 10, 0.675);
 
   @media screen and (min-width: 768px) {
-    width: 550px;
+    min-width: 550px;
   }
   @media screen and (min-width: 1200px) {
-    width: 350px;
+    min-width: 350px;
   }
 }
 
@@ -227,3 +236,21 @@
     font-size: 12px;
   }
 }
+
+// .donate-bank__correspondent-block {}
+
+// .donate-bank__correspondent-title-wrapper {}
+
+// .donate-bank__correspondent-title {}
+
+// .donate-bank__correspondent-btn {}
+
+// .donate-bank__correspondent-btn-details {}
+
+// .donate-bank__correspondent-btn-download {}
+
+// .donate-bank__correspondent-description {
+//   display: none;
+// }
+
+// .donate-bank__details-description {}

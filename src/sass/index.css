@@ -1829,14 +1829,21 @@ img {
 }
 
 .donate-nets__link-block {
-  width: 360px;
+  min-width: 310px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  border: 0.5px solid rgb(213, 167, 167);
+  border: 2px solid var(--text-color-accent);
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.427) 0px 8px 24px;
-  background-color: rgba(10, 64, 10, 0.675);
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 4px 18px;
+}
+.donate-nets__link-block:hover, .donate-nets__link-block:focus {
+  background-color: var(--background-color-accent);
+  box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
+}
+.donate-nets__link-block:hover .donate-nets__link, .donate-nets__link-block:focus .donate-nets__link, .donate-nets__link-block:hover .donate-nets__link-description, .donate-nets__link-block:focus .donate-nets__link-description {
+  color: var(--text-color-accent);
+  transition: var(--animation-base);
 }
 @media screen and (min-width: 768px) {
   .donate-nets__link-block {
@@ -1864,15 +1871,9 @@ img {
   display: inline-block;
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.3333333333;
   color: var(--text-color-primary);
-}
-.donate-nets__link:hover, .donate-nets__link:focus,
-.donate-nets__link-description:hover,
-.donate-nets__link-description:focus {
-  transition: var(--animation-base);
-  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .donate-nets__link,
@@ -1899,7 +1900,8 @@ img {
 }
 
 .donate-bank__details-wrapper {
-  width: 360px;
+  min-width: 310px;
+  max-width: 417px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -1910,12 +1912,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .donate-bank__details-wrapper {
-    width: 550px;
+    min-width: 550px;
   }
 }
 @media screen and (min-width: 1200px) {
   .donate-bank__details-wrapper {
-    width: 350px;
+    min-width: 350px;
   }
 }
 
