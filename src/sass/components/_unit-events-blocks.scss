@@ -52,7 +52,7 @@
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: 0.05em;
-  text-align: justify;
+  
 
   @media screen and (min-width: 768px) {
     font-size: 16px;
@@ -65,6 +65,7 @@
 }
 
 .events__list-title {
+  text-align: center;
   font-weight: 600;
   color: var(--text-color-accent);
 
@@ -72,6 +73,7 @@
 }
 
 .events__description-wrapper {
+  text-align: justify;
 
   @media screen and (min-width: 1200px) {
     width: 800px;

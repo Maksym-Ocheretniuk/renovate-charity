@@ -2378,7 +2378,6 @@ img {
   font-size: 14px;
   line-height: 1.2857142857;
   letter-spacing: 0.05em;
-  text-align: justify;
 }
 @media screen and (min-width: 768px) {
   .events__list-title, .events__description {
@@ -2394,10 +2393,14 @@ img {
 }
 
 .events__list-title {
+  text-align: center;
   font-weight: 600;
   color: var(--text-color-accent);
 }
 
+.events__description-wrapper {
+  text-align: justify;
+}
 @media screen and (min-width: 1200px) {
   .events__description-wrapper {
     width: 800px;
