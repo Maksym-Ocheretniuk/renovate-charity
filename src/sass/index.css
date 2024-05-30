@@ -2,19 +2,19 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 :root {
   --text-color-primary: rgb(239, 229, 229);
-  --text-color-accent: rgb(255, 255, 0);
+  --text-color-accent: rgb(255, 230, 0);
   --text-color-dark: rgb(67, 53, 53);
   --background-color: rgb(0, 30, 90);
   --background-color-accent: rgb(0, 26, 78);
   --header-background-color: rgb(0, 30, 90);
   --header-background-color-accent: rgb(0, 26, 78);
   --header-color-primary: rgb(239, 229, 229);
-  --header-nav-color-accent: rgb(255, 255, 0);
+  --header-nav-color-accent: rgb(255, 230, 0);
   --footer-background-color: rgb(0, 30, 90);
-  --footer-color-accent: rgb(255, 255, 0);
+  --footer-color-accent: rgb(255, 230, 0);
   --footer-socials-icon-fill: rgba(0, 30, 90, 0.959);
-  --footer-socials-icon-bcg-color: white;
-  --footer-socials-icon-fill-accent: hsl(60, 100%, 50%);
+  --footer-socials-icon-bcg-color: rgb(255, 255, 255);
+  --footer-socials-icon-fill-accent: rgb(255, 230, 0);
   --footer-copyright-text-color: rgb(146, 132, 132);
   --footer-border-goriz-color: rgb(146, 132, 132);
   --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
