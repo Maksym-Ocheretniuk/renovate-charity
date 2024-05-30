@@ -1,5 +1,5 @@
 @import './common';
-@import './example';
+// @import './example';
 
 // utils styles
 @import './utils/variables';
@@ -48,8 +48,8 @@
 @import './components/unit-candle';
 
 // page "Reconstruction" / "Відбудова країни" style
-@import './components/unit-reconstruction-blocks';
 @import './components/unit-reconstruction-btn';
+@import './components/unit-reconstruction-blocks';
 
 // page "Donate" / "Зробити донат" style
 @import './components/donate-qr';
@@ -57,3 +57,7 @@
 
 // page "Humanitarian help" / "Гуманітарна допомога" style
 @import './components/unit-humanitarian-help';
+
+// page "Charity events" / "Благодійні заходи" style
+@import './components/unit-events-btn';
+@import './components/unit-events-blocks';
