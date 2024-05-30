@@ -2310,9 +2310,6 @@ img {
   color: var(--text-color-accent);
 }
 
-.events__description-wrapper {
-  text-align: justify;
-}
 @media screen and (min-width: 1200px) {
   .events__description-wrapper {
     width: 800px;
@@ -2321,6 +2318,7 @@ img {
 
 .events__description {
   font-weight: 400;
+  text-align: justify;
   color: var(--text-color-primary);
 }
 
