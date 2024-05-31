@@ -49,27 +49,25 @@
 
 .events__list-title, .events__description {
   font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
-  font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: 0.05em;
-  
-
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
-    line-height: calc(16 / 12);
-  }
-  @media screen and (min-width: 1200px) {
-    font-size: 20px;
-    line-height: calc(20 / 16);
-  }
 }
 
 .events__list-title {
+  font-size: 16px;
   text-align: center;
   font-weight: 600;
   color: var(--text-color-accent);
 
-  // @media screen and (min-width: 1200px) {}
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(16 / 12);
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 22px;
+    ine-height: calc(20 / 16);
+  }
 }
 
 .events__description-wrapper {
@@ -80,9 +78,20 @@
 }
 
 .events__description {
+  font-size: 14px;
   font-weight: 400;
   text-align: justify;
   color: var(--text-color-primary);
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: calc(16 / 12);
+  }
+  
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: calc(20 / 16);
+  }
 }
 
 .events__content-wrapper {
@@ -231,4 +240,7 @@
 
 .text-uppercase {
   text-transform: uppercase;
+}
+.text-bold {
+  font-weight: 600;
 }

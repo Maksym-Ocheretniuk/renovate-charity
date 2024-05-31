@@ -2287,27 +2287,27 @@ img {
 
 .events__list-title, .events__description {
   font-family: "Montserrat", "Roboto", Verdana, sans-serif;
-  font-size: 14px;
   line-height: 1.2857142857;
   letter-spacing: 0.05em;
 }
+
+.events__list-title {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-color-accent);
+}
 @media screen and (min-width: 768px) {
-  .events__list-title, .events__description {
-    font-size: 16px;
+  .events__list-title {
+    font-size: 18px;
     line-height: 1.3333333333;
   }
 }
 @media screen and (min-width: 1200px) {
-  .events__list-title, .events__description {
-    font-size: 20px;
-    line-height: 1.25;
+  .events__list-title {
+    font-size: 22px;
+    ine-height: 1.25;
   }
-}
-
-.events__list-title {
-  text-align: center;
-  font-weight: 600;
-  color: var(--text-color-accent);
 }
 
 @media screen and (min-width: 1200px) {
@@ -2317,9 +2317,22 @@ img {
 }
 
 .events__description {
+  font-size: 14px;
   font-weight: 400;
   text-align: justify;
   color: var(--text-color-primary);
+}
+@media screen and (min-width: 768px) {
+  .events__description {
+    font-size: 16px;
+    line-height: 1.3333333333;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .events__description {
+    font-size: 20px;
+    line-height: 1.25;
+  }
 }
 
 .events__content-wrapper {
@@ -2460,4 +2473,8 @@ img {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */
