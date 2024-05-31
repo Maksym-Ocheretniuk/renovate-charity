@@ -64,14 +64,6 @@ body._lock {
   overflow: hidden;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-bold {
-  font-weight: 600;
-}
-
 /* глобальне скидання стилів */
 body,
 h1,
@@ -1162,14 +1154,6 @@ img {
   }
 }
 
-.about__text-accent {
-  font-weight: 600;
-}
-
-.about__text-appercase {
-  text-transform: uppercase;
-}
-
 .reports__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
@@ -1432,10 +1416,6 @@ img {
   }
 }
 
-.candle__text-uppercase {
-  text-transform: uppercase;
-}
-
 .candle__img-wrapper {
   display: block;
   margin-bottom: 10px;
@@ -1673,14 +1653,6 @@ img {
 
 .reconstruction__text-italic {
   font-style: italic;
-}
-
-.reconstruction__text-bold {
-  font-weight: bold;
-}
-
-.reconstruction__text-uppercase {
-  text-transform: uppercase;
 }
 
 .reconstruction__img-wrapper {
@@ -2625,4 +2597,12 @@ img {
   .nets__img {
     min-width: 365px;
   }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */
