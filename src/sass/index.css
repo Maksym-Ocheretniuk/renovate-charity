@@ -3,6 +3,7 @@
 :root {
   --text-color-primary: rgb(239, 229, 229);
   --text-color-accent: rgb(255, 230, 0);
+  --text-color-accent-hover: rgb(220, 199, 10);
   --text-color-dark: rgb(67, 53, 53);
   --background-color: rgb(0, 30, 90);
   --background-color-accent: rgb(0, 26, 78);
@@ -2546,7 +2547,8 @@ img {
   }
 }
 
-.nets__description {
+.nets__description,
+.nets__presentation-description {
   font-family: "Montserrat", "Roboto", Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -2556,13 +2558,15 @@ img {
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
-  .nets__description {
+  .nets__description,
+  .nets__presentation-description {
     font-size: 16px;
     line-height: 1.3333333333;
   }
 }
 @media screen and (min-width: 1200px) {
-  .nets__description {
+  .nets__description,
+  .nets__presentation-description {
     font-size: 17px;
     line-height: 1.25;
     text-align: left;
@@ -2596,6 +2600,56 @@ img {
 @media screen and (min-width: 1200px) {
   .nets__img {
     min-width: 365px;
+  }
+}
+
+.nets__presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .nets__presentation {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.nets__presentation .nets__presentation-link {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  text-align: center;
+  padding: 5px 15px;
+  color: var(--text-color-dark);
+  background-color: var(--text-color-accent);
+  border-radius: 15px;
+  border: 2px solid var(--text-color-dark);
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 8px 24px;
+  transition: var(--animation-base);
+}
+.nets__presentation .nets__presentation-link:hover, .nets__presentation .nets__presentation-link:focus {
+  background-color: var(--text-color-accent-hover);
+  box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
+}
+@media screen and (max-width: 400px) {
+  .nets__presentation .nets__presentation-link {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nets__presentation .nets__presentation-link {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nets__presentation .nets__presentation-link {
+    font-size: 14px;
+    min-width: 250px;
   }
 }
 

@@ -88,7 +88,8 @@
   }
 }
 
-.nets__description {
+.nets__description,
+.nets__presentation-description {
   font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -138,5 +139,62 @@
 
   @media screen and (min-width: 1200px) {
     min-width: 365px;
+  }
+}
+
+.nets__presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+// .nets__presentation-description {}
+
+.nets__presentation .nets__presentation-link {
+  font-family: 'Montserrat', Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+
+  text-align: center;
+
+  padding: 5px 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+  
+  color: var(--text-color-dark);
+  background-color: var(--text-color-accent);
+  border-radius: 15px;
+  border: 2px solid var(--text-color-dark);
+  cursor: pointer;
+
+  box-shadow: rgba(149, 157, 165, 0.427) 0px 8px 24px;
+
+  transition: var(--animation-base);
+
+  &:hover,
+  &:focus {
+    background-color: var(--text-color-accent-hover);
+    box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    min-width: 250px;
+
   }
 }
