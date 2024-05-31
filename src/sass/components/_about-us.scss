@@ -106,3 +106,15 @@
     margin-bottom: 0px;
   }
 }
+
+.about__text > .about__project-link {
+  color: var(--text-color-accent);
+  // text-decoration: underline;
+
+  transition: var(--animation-base);
+  
+  &:hover,
+	&:focus {
+    color: var(--text-color-accent-hover);
+  }
+}

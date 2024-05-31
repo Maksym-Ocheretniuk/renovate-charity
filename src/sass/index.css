@@ -1155,6 +1155,14 @@ img {
   }
 }
 
+.about__text > .about__project-link {
+  color: var(--text-color-accent);
+  transition: var(--animation-base);
+}
+.about__text > .about__project-link:hover, .about__text > .about__project-link:focus {
+  color: var(--text-color-accent-hover);
+}
+
 .reports__title {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 700;
