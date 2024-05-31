@@ -152,6 +152,7 @@
 
   &:hover,
   &:focus {
+    background-color: var(--text-color-accent-hover);
     box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
   }
 
@@ -195,6 +196,7 @@
 
   &:hover,
   &:focus {
+    background-color: var(--text-color-accent-hover);
     box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
   }
 
