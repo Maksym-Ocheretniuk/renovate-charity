@@ -2499,4 +2499,26 @@ img {
   .zsu__title {
     font-size: 40px;
   }
+}
+
+.nets__title {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 70px;
+  color: var(--text-color-accent);
+}
+@media screen and (min-width: 768px) {
+  .nets__title {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nets__title {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=index.css.map */
