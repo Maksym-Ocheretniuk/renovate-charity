@@ -3,7 +3,7 @@
 :root {
   --text-color-primary: rgb(239, 229, 229);
   --text-color-accent: rgb(255, 230, 0);
-  --text-color-accent-hover: rgb(220, 199, 10);
+  --text-color-accent-hover: rgb(200, 181, 13);
   --text-color-dark: rgb(67, 53, 53);
   --background-color: rgb(0, 30, 90);
   --background-color-accent: rgb(0, 26, 78);
@@ -1989,6 +1989,7 @@ img {
   transition: var(--animation-base);
 }
 .donate-bank__correspondent-btn-details:hover, .donate-bank__correspondent-btn-details:focus {
+  background-color: var(--text-color-accent-hover);
   box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
 }
 @media screen and (max-width: 400px) {
@@ -2029,6 +2030,7 @@ img {
   transition: var(--animation-base);
 }
 .donate-bank__correspondent-block .donate-bank__correspondent-btn-download:hover, .donate-bank__correspondent-block .donate-bank__correspondent-btn-download:focus {
+  background-color: var(--text-color-accent-hover);
   box-shadow: rgba(82, 92, 102, 0.502) 0px 4px 18px;
 }
 @media screen and (max-width: 400px) {
