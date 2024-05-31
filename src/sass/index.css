@@ -1606,6 +1606,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   text-align: center;
+  color: var(--text-color-accent);
 }
 @media screen and (min-width: 768px) {
   .reconstruction__list > .reconstruction__list-item::before {
