@@ -13,7 +13,9 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
       })
     }
   }
-} else {
+
+}
+else {
   
   // код для інших пристроїв без touchScreen
   document.body.classList.add('_pc')
