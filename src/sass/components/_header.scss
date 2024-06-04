@@ -24,6 +24,13 @@
   width: 50px;
   height: 50px;
   z-index: 5;
+  border-radius: 50%;
+  transition: var(--animation-base);
+
+  &:hover,
+  &:focus {
+    box-shadow: var(--header-logo-color-shadow) 0px 8px 24px;
+  }
 
   // @media screen and (min-width: 768px) {}
   // @media screen and (min-width: 1200px) {}
