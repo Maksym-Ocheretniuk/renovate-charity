@@ -11,6 +11,7 @@
   --header-background-color-accent: rgb(0, 26, 78);
   --header-color-primary: rgb(239, 229, 229);
   --header-nav-color-accent: rgb(255, 230, 0);
+  --header-logo-color-shadow: rgba(255, 230, 0, 0.285);
   // --header-sub-menu-bcg-color: rgba(16, 52, 126, 0.793);
   
 
@@ -28,7 +29,7 @@
   // PAGE -->> "_____"
 
   // ANIMATION
-  --animation-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   // --animation-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   // --animation-bcg: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

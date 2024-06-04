@@ -19,19 +19,6 @@
     z-index: 5;
   }
 }
-// .menu__icon {
-//   display: block;
-//   position: relative;
-//   width: 30px;
-//   height: 18px;
-//   cursor: pointer;
-//   z-index: 5;
-  
-//   @media screen and (min-width: 768px) {
-//     display: none;
-//   }
-//   // @media screen and (min-width: 1200px) {}
-// }
 
 .menu__icon:hover span,
 .menu__icon:focus span,
@@ -163,7 +150,6 @@
   
   @media screen and (max-width: 767px) {
     flex-wrap: wrap;
-    // padding: 0px 0;
   }
 
   // @media screen and (min-width: 768px) {}
@@ -187,12 +173,7 @@
   &:hover,
   &:focus {
     color: var(--header-nav-color-accent);
-    transition: color 250ms;
-  }
-
-  &:hover:before {
-    transform: scaleX(1);
-    transition: transform var(--animation-base);
+    transition: color var(--animation-base);
   }
 
   &::before {
@@ -213,11 +194,19 @@
   // }
 
   @media screen and (min-width: 768px) {
-    font-size: 13px;
+    font-size: 12px;
   }
   @media screen and (min-width: 1200px) {
     font-size: 18px;
   }
+}
+
+.menu__item:nth-of-type(1)>.menu__link:hover:before,
+.menu__item:nth-of-type(3)>.menu__link:hover:before,
+.menu__item:nth-of-type(4)>.menu__link:hover:before,
+.menu__item:nth-of-type(5)>.menu__link:hover:before {
+  transform: scaleX(1);
+  transition: transform var(--animation-base);
 }
 
 .menu__arrow {
@@ -234,6 +223,13 @@
   border-radius: 15px;
   box-shadow: rgba(55, 112, 136, 0.511) 0px 2px 4px 0px, rgba(55, 122, 150, 0.698) 0px 2px 16px 0px;
   // box-shadow: rgba(149, 157, 165, 0.427) 0px 8px 24px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--header-background-color);
+    box-shadow: rgba(6, 14, 18, 0.232) 0px 2px 4px 0px, rgba(9, 22, 27, 0.237) 0px 2px 16px 0px;
+    transition: var(--animation-base);
+  }
 
   @media screen and (max-width: 767px) {
     padding: 10px 15px;
@@ -252,7 +248,7 @@
 .menu__item:nth-child(2):hover .menu__link,
 .menu__item:nth-child(2):focus .menu__link {
   color: var(--header-nav-color-accent);
-  transition: color 250ms;
+  transition: var(--animation-base);
 }
 
 body._touch .menu__arrow {
