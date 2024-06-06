@@ -1,0 +1,50 @@
+// 
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1200px) {}
+
+// !-------------
+// .animation {
+//   transition: var(--animation-base);
+//   transform: translateY(20%);
+//   opacity: 0;
+// }
+
+// .animation.animation-active {
+//   transform: translateY(0);
+//   opacity: 1;
+// }
+// !----------
+
+// .animation {
+  // animation: move 1s var(--animation) 200ms alternate both;
+  // animation-timeline: view();
+
+  // transition: var(--animation-base);
+  // transform: translateY(10%);
+  // opacity: 0;
+// }
+
+// @keyframes move {
+  // from {
+  //   transform: translateY(50%);
+  //   opacity: 0.3;
+  // }
+  // to {
+  //   transform: translateY(0%);
+  //   opacity: 1;
+  // }
+
+  // 0% {
+  //   transform: translateY(15%);
+  //   opacity: 0.4;
+  // }
+  // 50% {
+  //   transform: translateY(10%);
+  //   opacity: 0.5;
+  // }
+  // 100% {
+  //   transform: translateY(0%);
+  //   opacity: 1;
+  // }
+// }
+

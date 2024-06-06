@@ -20,6 +20,7 @@
   --footer-copyright-text-color: rgb(146, 132, 132);
   --footer-border-goriz-color: rgb(146, 132, 132);
   --animation-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --animation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
