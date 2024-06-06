@@ -1,0 +1,58 @@
+// scroll-Up Button
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1200px) {}
+
+.scroll-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  
+  height: 10px;
+  width: 10px;
+
+  border-radius: 25%;
+  border: 2px solid var(--text-color-primary);
+  box-shadow: rgba(149, 157, 165, 0.2) 10px 10px 24px;
+  background-color: var(--background-color);
+  
+  cursor: pointer;
+  z-index: 100;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: var(--animation-base);
+
+  &:hover,
+  &:focus {
+    border-color: var(--text-color-accent);
+    background-color: var(--background-color-accent);
+  }
+}
+
+.scroll-up.active {
+  visibility: visible;
+  opacity: 0.8;
+  bottom: 40px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+
+  @media screen and (min-width: 910px) {
+    right: 40px;
+  }
+}
+
+.scroll-up__symbol {
+  font-size: 30px;
+  color: var(--text-color-primary);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color-accent);
+  }
+}
