@@ -171,7 +171,7 @@ img {
   width: 10px;
   border-radius: 25%;
   border: 2px solid var(--text-color-primary);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 10px 10px 24px;
   background-color: var(--background-color);
   cursor: pointer;
   z-index: 100;
@@ -191,6 +191,11 @@ img {
   right: 20px;
   height: 60px;
   width: 60px;
+}
+@media screen and (min-width: 910px) {
+  .scroll-up.active {
+    right: 40px;
+  }
 }
 
 .scroll-up__symbol {
