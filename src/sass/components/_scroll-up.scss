@@ -1,0 +1,60 @@
+// scroll-Up Button
+
+.scroll-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 60px;
+  width: 60px;
+
+  border-radius: 25%;
+  border: 2px solid var(--text-color-primary);
+
+  background-color: var(--background-color);
+  
+  cursor: pointer;
+  z-index: 100;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: var(--animation-base);
+
+  &:hover,
+  &:focus {
+    border-color: var(--text-color-accent);
+  }
+}
+
+.scroll-up.active {
+  visibility: visible;
+  opacity: 0.6;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-up__symbol {
+  font-size: 30px;
+  color: var(--text-color-primary);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color-accent);
+  }
+
+  // display: block;
+  // height: 100%;
+  // width: 100%;
+  // height: calc(100% - 15px);
+  // width: calc(100% - 15px);
+  // background-color: #dcdee8;
+  
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // border-radius: 50%;
+}
