@@ -174,7 +174,7 @@ img {
   box-shadow: rgba(149, 157, 165, 0.2) 10px 10px 24px;
   background-color: var(--background-color);
   cursor: pointer;
-  z-index: 100;
+  z-index: 9;
   visibility: hidden;
   opacity: 0;
   transition: var(--animation-base);
