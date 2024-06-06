@@ -167,10 +167,11 @@ img {
   position: fixed;
   bottom: 0px;
   right: 0px;
-  height: 60px;
-  width: 60px;
+  height: 10px;
+  width: 10px;
   border-radius: 25%;
   border: 2px solid var(--text-color-primary);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   background-color: var(--background-color);
   cursor: pointer;
   z-index: 100;
@@ -180,13 +181,16 @@ img {
 }
 .scroll-up:hover, .scroll-up:focus {
   border-color: var(--text-color-accent);
+  background-color: var(--background-color-accent);
 }
 
 .scroll-up.active {
   visibility: visible;
-  opacity: 0.6;
-  bottom: 20px;
+  opacity: 0.8;
+  bottom: 40px;
   right: 20px;
+  height: 60px;
+  width: 60px;
 }
 
 .scroll-up__symbol {

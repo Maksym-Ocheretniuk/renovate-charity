@@ -8,11 +8,13 @@
   position: fixed;
   bottom: 0px;
   right: 0px;
-  height: 60px;
-  width: 60px;
+  
+  height: 10px;
+  width: 10px;
 
   border-radius: 25%;
   border: 2px solid var(--text-color-primary);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   background-color: var(--background-color);
   
@@ -27,14 +29,17 @@
   &:hover,
   &:focus {
     border-color: var(--text-color-accent);
+    background-color: var(--background-color-accent);
   }
 }
 
 .scroll-up.active {
   visibility: visible;
-  opacity: 0.6;
-  bottom: 20px;
+  opacity: 0.8;
+  bottom: 40px;
   right: 20px;
+  height: 60px;
+  width: 60px;
 }
 
 .scroll-up__symbol {
@@ -45,16 +50,4 @@
   &:focus {
     color: var(--text-color-accent);
   }
-
-  // display: block;
-  // height: 100%;
-  // width: 100%;
-  // height: calc(100% - 15px);
-  // width: calc(100% - 15px);
-  // background-color: #dcdee8;
-  
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // border-radius: 50%;
 }
