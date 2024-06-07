@@ -101,23 +101,23 @@
   }
   
   @media screen and (min-width: 1200px) {
-    flex-direction: row;
+    // flex-direction: row;
     gap: 25px;
     align-items: center;
     padding: 20px;
   }
 }
 
-.reconstruction__content-reverse {
-  @media screen and (min-width: 1200px) {
-    flex-direction: row-reverse;
-  }
-}
+// .reconstruction__content-reverse {
+//   @media screen and (min-width: 1200px) {
+//     flex-direction: row-reverse;
+//   }
+// }
 
 .reconstruction__description-wrapper {
-  @media screen and (min-width: 1200px) {
-    width: 800px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: 800px;
+  // }
 }
 
 .reconstruction__description {
