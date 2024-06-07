@@ -2881,7 +2881,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 .zsu__description-text {
   font-size: 14px;
   font-weight: 400;
-  text-align: justify;
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
