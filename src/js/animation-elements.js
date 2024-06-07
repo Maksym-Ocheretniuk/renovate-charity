@@ -57,3 +57,22 @@ ScrollReveal().reveal('.animation__bottom', {
   delay: 200,
   origin: 'bottom'
 });
+
+ScrollReveal().reveal('.animation__socials-right', {
+  distance: '25px',
+  delay: 100,
+  origin: 'right',
+  duration: 2000
+});
+ScrollReveal().reveal('.animation__socials-left', {
+  distance: '25px',
+  delay: 100,
+  origin: 'left',
+  duration: 2000
+});
+ScrollReveal().reveal('.animation__socials-bottom', {
+  distance: '25px',
+  delay: 100,
+  origin: 'bottom',
+  duration: 2000
+});
