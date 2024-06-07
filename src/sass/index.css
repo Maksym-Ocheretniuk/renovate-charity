@@ -609,32 +609,24 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   justify-content: center;
   gap: 10px;
 }
-@media screen and (min-width: 480px) {
-  .icons__main-list li:nth-of-type(4) h2 {
-    height: 63px;
-  }
-}
 @media screen and (min-width: 768px) {
   .icons__main-list {
     gap: 20px;
   }
-  .icons__main-list li:nth-of-type(4) h2, .icons__main-list li:nth-of-type(5) h2, .icons__main-list li:nth-of-type(6) h2 {
-    height: 63px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .icons__main-list {
-    gap: 20px;
+    gap: 35px;
   }
-  .icons__main-list li:nth-of-type(4) h2, .icons__main-list li:nth-of-type(5) h2, .icons__main-list li:nth-of-type(6) h2 {
-    height: 30px;
+  .icons__main-list li:nth-of-type(1) h2, .icons__main-list li:nth-of-type(2) h2, .icons__main-list li:nth-of-type(6) h2 {
+    height: 40px;
   }
 }
 
 .icons__main-link {
   display: flex;
   flex-direction: column;
-  width: 215px;
+  max-width: 370px;
   padding: 10px;
   transition: var(--animation-base);
 }
@@ -650,6 +642,7 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   .icons__main-link {
     flex-direction: row;
     gap: 10px;
+    max-width: 330px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -701,16 +694,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   text-transform: uppercase;
   margin-bottom: 5px;
   color: var(--text-color-dark);
-}
-@media screen and (min-width: 768px) {
-  .icons__main-title {
-    height: 90px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .icons__main-title {
-    height: 50px;
-  }
 }
 
 .icons__main-description {
