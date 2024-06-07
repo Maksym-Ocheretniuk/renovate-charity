@@ -2019,6 +2019,11 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
     gap: 15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .reconstruction__img-wrapper {
+    gap: 50px;
+  }
+}
 
 .reconstruction__img {
   min-width: 100px;
