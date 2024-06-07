@@ -1931,6 +1931,25 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   }
 }
 
+.reconstruction__list-description {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--text-color-primary);
+}
+@media screen and (min-width: 768px) {
+  .reconstruction__list-description {
+    font-size: 16px;
+    line-height: 1.3333333333;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reconstruction__list-description {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+}
+
 .reconstruction__content-wrapper {
   display: flex;
   flex-direction: column;
@@ -1969,7 +1988,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 .reconstruction__description {
   font-size: 14px;
   font-weight: 400;
-  text-align: justify;
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
