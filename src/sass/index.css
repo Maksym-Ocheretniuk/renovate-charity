@@ -1984,9 +1984,22 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 }
 @media screen and (min-width: 1200px) {
   .reconstruction__content-wrapper {
+    flex-direction: row;
     gap: 25px;
     align-items: center;
     padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reconstruction__content-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reconstruction__description-wrapper {
+    width: 800px;
   }
 }
 
@@ -2017,11 +2030,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 @media screen and (min-width: 768px) {
   .reconstruction__img-wrapper {
     gap: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .reconstruction__img-wrapper {
-    gap: 50px;
   }
 }
 
