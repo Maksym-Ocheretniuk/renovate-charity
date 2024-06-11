@@ -21,7 +21,7 @@ import Thank_10_orig from '../images/fund-thank/img-fund-thank-010@2x.webp';
 import Thank_11_prev from '../images/fund-thank/img-fund-thank-011@1x.webp';
 import Thank_11_orig from '../images/fund-thank/img-fund-thank-011@2x.webp';
 import Thank_12_prev from '../images/fund-thank/img-fund-thank-012@1x.webp';
-import Thank_12_orig from '../images/fund-thank/img-fund-thank-008@2x.webp';
+import Thank_12_orig from '../images/fund-thank/img-fund-thank-012@2x.webp';
 
 export const thanksGalleryItems = [
   {
