@@ -28,31 +28,6 @@
     font-size: 40px;
   }
 }
- 
-.thank__text {
-  font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: calc(18 / 14);
-  letter-spacing: 0.05em;
-  text-align: justify;
-  text-indent: 4%;
-
-  margin-bottom: 10px;
-
-  color: var(--text-color-primary);
-
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
-    line-height: calc(16 / 12);
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 20px;
-    line-height: calc(20 / 16);
-    margin-bottom: 20px;
-  }
-}
 
 .thanks-gallery {
   display: grid;
