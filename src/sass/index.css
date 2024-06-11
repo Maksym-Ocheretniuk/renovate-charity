@@ -1398,31 +1398,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   }
 }
 
-.reports__text {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.2857142857;
-  letter-spacing: 0.05em;
-  text-align: justify;
-  text-indent: 4%;
-  margin-bottom: 10px;
-  color: var(--text-color-primary);
-}
-@media screen and (min-width: 768px) {
-  .reports__text {
-    font-size: 16px;
-    line-height: 1.3333333333;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .reports__text {
-    font-size: 20px;
-    line-height: 1.25;
-    margin-bottom: 20px;
-  }
-}
-
 .reports-gallery {
   display: grid;
   max-width: 1140px;
@@ -1503,31 +1478,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 @media screen and (min-width: 1200px) {
   .thank__title {
     font-size: 40px;
-  }
-}
-
-.thank__text {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.2857142857;
-  letter-spacing: 0.05em;
-  text-align: justify;
-  text-indent: 4%;
-  margin-bottom: 10px;
-  color: var(--text-color-primary);
-}
-@media screen and (min-width: 768px) {
-  .thank__text {
-    font-size: 16px;
-    line-height: 1.3333333333;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .thank__text {
-    font-size: 20px;
-    line-height: 1.25;
-    margin-bottom: 20px;
   }
 }
 
@@ -1984,9 +1934,22 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 }
 @media screen and (min-width: 1200px) {
   .reconstruction__content-wrapper {
+    flex-direction: row;
     gap: 25px;
     align-items: center;
     padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reconstruction__content-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reconstruction__description-wrapper {
+    width: 800px;
   }
 }
 
@@ -2017,11 +1980,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 @media screen and (min-width: 768px) {
   .reconstruction__img-wrapper {
     gap: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .reconstruction__img-wrapper {
-    gap: 50px;
   }
 }
 
