@@ -38,14 +38,13 @@
   }
 }
 
-.footer__address-recvizit {
+.footer__address-recvizit,
+.footer__address-location {
   font-family: 'Montserrat', Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(16 / 14);
   font-style: normal;
-
-  text-transform: uppercase;
   
   color: var(--text-color-primary);
 
