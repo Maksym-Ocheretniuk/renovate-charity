@@ -7,14 +7,12 @@
   position: absolute;
   top: 100%;
   left: 0;
-  // background-color: var(--header-sub-menu-bcg-color);
   padding: 15px 15px 15px 15px;
   width: 160px;
 
   @media screen and (max-width: 767px) {
     display: none;
     position: relative;
-    // background-color: var(--header-sub-menu-bcg-color);
     flex: 1 1 100%;
     margin: 5px 0 0 0;
     width: 150px;
