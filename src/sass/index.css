@@ -1023,22 +1023,24 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   }
 }
 
-.footer__address-recvizit {
+.footer__address-recvizit,
+.footer__address-location {
   font-family: "Montserrat", Verdana, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.1428571429;
   font-style: normal;
-  text-transform: uppercase;
   color: var(--text-color-primary);
 }
 @media screen and (min-width: 768px) {
-  .footer__address-recvizit {
+  .footer__address-recvizit,
+  .footer__address-location {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer__address-recvizit {
+  .footer__address-recvizit,
+  .footer__address-location {
     font-size: 18px;
   }
 }
