@@ -1,0 +1,15 @@
+{
+  "header": {
+    "footer__address-title": "Благодійний фонд ''ЗАНОВО''",
+    "footer__address-recvizit": "ЄДРПОУ: 44659830",
+    "footer__address-location": "м. Київ, вул. Дегтярівська 5",
+
+    "footer__qr-title": "Постійний збір",
+
+    "footer__docs-link-statute": "Статут",
+    "footer__docs-link-extract": "Витяг з реєстру",
+    "footer__docs-link-certificate": "Довідка про неприбутковість",
+
+    "footer__copyright-text": "&#169; 2024 - Благодійний фонд ''ЗАНОВО''. <br class='footer__br'> Всі права захищені."
+  }
+}

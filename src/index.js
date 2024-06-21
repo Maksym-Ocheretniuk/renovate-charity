@@ -10,3 +10,5 @@ import './js/correspondent-banks';
 import './js/scroll-up';
 
 // import './js/animation-elements';
+
+import './js/multi-languages';
