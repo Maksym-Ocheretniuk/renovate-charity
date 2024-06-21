@@ -1,0 +1,46 @@
+// --- Header ---
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1200px) {}
+
+.language__select {
+  font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  padding: 7px 5px;
+  border-radius: 10px;
+
+  width: 60px;
+  background: transparent;
+  color: var(--header-color-primary);
+  border: 1px solid var(--header-color-primary);
+
+  cursor: pointer;
+
+  transition: var(--animation-base);
+  
+  &:hover,
+  &:focus {
+    color: var(--header-nav-color-accent);
+    border-color: var(--header-nav-color-accent);
+    background-color: var(--header-background-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 10px;
+    width: 45px;
+    padding: 5px 3px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    width: 65px;
+    padding: 10px 6px;
+  }
+}
+
+option {
+  color: yellow;
+  background: yellow;
+}
