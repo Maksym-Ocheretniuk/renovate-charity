@@ -8,16 +8,15 @@
   font-size: 16px;
   line-height: calc(18 / 14);
   letter-spacing: 0.05em;
-  padding: 7px 5px;
-  border-radius: 10px;
-
-  width: 60px;
+  
+  padding: 3px;
   background: transparent;
   color: var(--header-color-primary);
+
+  border-radius: 10px;
   border: 1px solid var(--header-color-primary);
 
   cursor: pointer;
-
   transition: var(--animation-base);
   
   &:hover,
@@ -29,18 +28,9 @@
 
   @media screen and (min-width: 768px) {
     font-size: 10px;
-    width: 45px;
-    padding: 5px 3px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 16px;
-    width: 65px;
-    padding: 10px 6px;
   }
-}
-
-option {
-  color: yellow;
-  background: yellow;
 }

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "menu__link-home": "Fund RENOVATE",
+    "menu__link-projects": "Projects",
+    "menu__link-about": "About us",
+    "menu__link-report": "Reports and Acknowledgments",
+    "menu__link-contacts": "Contacts",
+    "menu__link-donate": "Donation",
+    
+    "menu__sub-link-zsu-help": "ZSU Help",
+    "menu__sub-link-reconstruction": "Reconstruction",
+    "menu__sub-link-nets": "Squad NCN",
+    "menu__sub-link-candle": "Powers of SCO",
+    "menu__sub-link-humanitarian": "Humanitarian aid",
+    "menu__sub-link-events": "Charity Events"
+  }
+}

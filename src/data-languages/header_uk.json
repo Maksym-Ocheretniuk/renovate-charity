@@ -1,0 +1,17 @@
+{
+  "header": {
+    "menu__link-home": "Фонд ЗАНОВО",
+    "menu__link-projects": "Проєкти",
+    "menu__link-about": "Про нас",
+    "menu__link-report": "Звіти і Подяки",
+    "menu__link-contacts": "Контакти",
+    "menu__link-donate": "Зробити донат",
+    
+    "menu__sub-link-zsu-help": "Допомога ЗСУ",
+    "menu__sub-link-reconstruction": "Відбудова країни",
+    "menu__sub-link-nets": "Загін СМС",
+    "menu__sub-link-candle": "Сили ССО",
+    "menu__sub-link-humanitarian": "Гуманітарна допомога",
+    "menu__sub-link-events": "Благодійні заходи"
+  }
+}

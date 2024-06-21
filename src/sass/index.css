@@ -606,11 +606,10 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   font-size: 16px;
   line-height: 1.2857142857;
   letter-spacing: 0.05em;
-  padding: 7px 5px;
-  border-radius: 10px;
-  width: 60px;
+  padding: 3px;
   background: transparent;
   color: var(--header-color-primary);
+  border-radius: 10px;
   border: 1px solid var(--header-color-primary);
   cursor: pointer;
   transition: var(--animation-base);
@@ -623,21 +622,12 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
 @media screen and (min-width: 768px) {
   .language__select {
     font-size: 10px;
-    width: 45px;
-    padding: 5px 3px;
   }
 }
 @media screen and (min-width: 1200px) {
   .language__select {
     font-size: 16px;
-    width: 65px;
-    padding: 10px 6px;
   }
-}
-
-option {
-  color: yellow;
-  background: yellow;
 }
 
 .main__about-section {
