@@ -20,7 +20,7 @@ const langHeaderTexts = {
   },
   "lang__menu-link-report" : {
     "ua": "Звіти і Подяки",
-    "en": "Reports and Acknowledgments",
+    "en": "Reports and Thanks",
   },
   "lang__menu-link-contacts" : {
     "ua": "Контакти",
@@ -49,7 +49,7 @@ const langHeaderTexts = {
   },
   "lang__menu-sub-link-humanitarian" : {
     "ua": "Гуманітарна допомога",
-    "en": "Humanitarian aid",
+    "en": "Humanitarian help",
   },
   "lang__menu-sub-link-events" : {
     "ua": "Благодійні заходи",
