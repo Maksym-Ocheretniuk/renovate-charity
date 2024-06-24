@@ -183,6 +183,50 @@ const langAboutUsTexts = {
     "ua": "З 28 лютого ми почали займатися волонтерством на Київському з-д вокзалі.",
     "en": "From February 28, we started volunteering at the Kyiv railway station.",
   },
+  "lang__about-us-text-3" :  {
+    "ua": `З чисельністю більше 100 осіб, "Волонтерський Центр" надавав допомогу підрозділам і військовим частинам, іншим волонтерським організаціям, а також біженцям, соціальним центрам, будинкам догляду за літніми людьми, шпиталям і лікарням, бомбосховищам та місцевому населенню.`,
+    "en": `With a staff of more than 100 people, the "Volunteer Center" provided assistance to units and military units, other volunteer organizations, as well as refugees, social centers, care homes for the elderly, hospitals and clinics, bomb shelters and the local population.`,
+  },
+  "lang__about-us-text-4" :  {
+    "ua": "Наші волонтери сприяли у забезпеченні гуманітарними вантажами для мешканців Київського, Чернігівського, Сумського, Харківського, Полтавського, Донецького, Херсонського та Миколаївського регіонів. Кожним координатором і волонтером пророблена гігантська робота. Ми приймали, складували і спрямовували великі вантажі з потягів або, навпаки, завантажували гуманітарну допомогу до потягів різних напрямків.",
+    "en": "Our volunteers contributed to the provision of humanitarian goods for residents of the Kyiv, Chernihiv, Sumy, Kharkiv, Poltava, Donetsk, Kherson and Mykolaiv regions. Every coordinator and volunteer has done a gigantic job. We received, stored and sent large loads from trains or, on the contrary, loaded humanitarian aid onto trains of various directions.",
+  },
+  "lang__about-us-text-5" :  {
+    "ua": "А ще майже щодня отримували та розподіляли до 400 відер вареників та всіляких смаколиків із західних областей України. Тож біженці, військові та бійці ТрО Києва та його околиць ніколи не залишались голодними. А ще приймали евакуаційні потяги, автобуси та машини, що вивозили людей з окупованих міст та гарячих точок. Всі справи кінця лютого – початку квітня 2022 й не перелічити...",
+    "en": "And almost every day they received and distributed up to 400 buckets of dumplings and all kinds of goodies from the western regions of Ukraine. Therefore, refugees, military personnel and fighters of the Military District of Kyiv and its surroundings never remained hungry. They also received evacuation trains, buses and cars that took people out of occupied cities and hot spots. All the affairs of the end of February - beginning of April 2022 cannot be listed...",
+  },
+  "lang__about-us-text-6" :  {
+    "ua": "То були важкі часи цілодобової безоглядної праці, але ми всі згуртувались коло однієї мети – допомогти захищати нашу Землю, вистояти та перемогти!",
+    "en": "Those were difficult times of round-the-clock careless work, but we all rallied around one goal – to help protect our Earth, to stand and win!",
+  },
+  "lang__about-us-text-7" :  {
+    "ua": `Весь час ми хотіли робити все більше і більше задля допомоги й тим, хто нас захищає в ці страшні часи, й тим, хто постраждав в результаті агресії та потребує підтримки – так, координатори Волонтерів Київського Вокзалу стали засновниками благодійного фонду "Заново".`,
+    "en": `All the time, we wanted to do more and more to help both those who protect us in these terrible times and those who suffered as a result of aggression and need support - yes, the coordinators of Volunteers of the Kyiv Railway Station became the founders of the charity fund "RENOVATE".`,
+  },
+  "lang__about-us-text-8" :  {
+    "ua": "<span class=\"text-bold\">\"Заново\" — це про Відновлення</span>. Це місце в якому одночасно зібралися люди різних професій: інженер-архітектор, дизайнер, режисер, фармацевт, лікар, палеонтолог, кухар, електрик, вантажник, менеджер, юрист, тощо. Всіх нас, таких різних, об’єднує величезне бажання наблизити нашу перемогу та допомогти нашій країні відновлюватись! Кожного дня ми продовжуємо йти за покликом душі з однією лиш метою – допомогти країні вистояти.",
+    "en": "<span class=\"text-bold\">\"RENOVATE\" is about Restoration</span>. This is a place where people of different professions gathered at the same time: engineer-architect, designer, director, pharmacist, doctor, paleontologist, cook, electrician, porter, manager, lawyer, etc. All of us, so different, are united by a huge desire to bring our victory closer and help our country recover! Every day, we continue to follow our soul's calling with only one goal - to help the country survive.",
+  },
+  "lang__about-us-text-9" :  {
+    "ua": `На сьогодні наш фонд працює за такими напрямками:
+      <a class="about__project-link text-bold link" href="./unit-reconstruction.html" aria-label="Charity page">відбудова країни</a>,
+      <a class="about__project-link text-bold link" href="./unit-humanitarian-help.html" aria-label="Humanitarian help page">гуманітарна допомога</a>,
+      <a class="about__project-link text-bold link" href="./unit-zsu-help.html" aria-label="ZSU help page">допомога ЗСУ</a>,
+      <a class="about__project-link text-bold link" href="./unit-nets.html" aria-label="Nets page">плетіння сіток</a>,
+      <a class="about__project-link text-bold link" href="./unit-candle.html" aria-label="Candle page">виготовлення окопних свічок</a>
+      та
+      <a class="about__project-link text-bold link" href="./unit-events.html" aria-label="Events page">творчі благодійні заходи</a>.
+      Кожен з цих напрямків об’єднує прекрасних людей, які безупинно працюють й вирішують неможливі задачі з пошуку необхідного для досягнення наших цілей. Всі ми віримо <span class="text-uppercase">в нашу перемогу, в країну</span>, в якій живемо! Віримо в те, що <span class="text-uppercase">квітуче майбутнє україни – це реальність</span>, адже стільки людей об’єднані цією єдиною метою, а тому <span class="text-uppercase">разом ми переможемо</span>!`,
+    "en": `Today, our foundation works in the following directions:
+ <a class="about__project-link text-bold link" href="./unit-reconstruction.html" aria-label="Charity page">country reconstruction</a>,
+ <a class="about__project-link text-bold link" href="./unit-humanitarian-help.html" aria-label="Humanitarian help page">humanitarian help</a>,
+ <a class="about__project-link text-bold link" href="./unit-zsu-help.html" aria-label="ZSU help page">ZSU help</a>,
+ <a class="about__project-link text-bold link" href="./unit-nets.html" aria-label="Nets page">weaving nets</a>,
+ <a class="about__project-link text-bold link" href="./unit-candle.html" aria-label="Candle page">making trench candles</a>
+ and
+ <a class="about__project-link text-bold link" href="./unit-events.html" aria-label="Events page">creative charity events</a>.
+ Each of these areas unites wonderful people who work tirelessly and solve impossible tasks in search of what is necessary to achieve our goals. We all believe <span class="text-uppercase">in our victory, in the country</span> in which we live! We believe that <span class="text-uppercase">the flourishing future of Ukraine is a reality</span>, because so many people are united by this one goal, and therefore <span class="text-uppercase">together we we will win!`,
+  },
 }
 
 function checkPagePathName() {
