@@ -600,36 +600,6 @@ body._touch .menu__list > .menu__item._active .menu__sub-list {
   pointer-events: all;
 }
 
-.language__select {
-  font-family: "Montserrat", "Roboto", Verdana, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2857142857;
-  letter-spacing: 0.05em;
-  padding: 3px;
-  background: transparent;
-  color: var(--header-color-primary);
-  border-radius: 10px;
-  border: 1px solid var(--header-color-primary);
-  cursor: pointer;
-  transition: var(--animation-base);
-}
-.language__select:hover, .language__select:focus {
-  color: var(--header-nav-color-accent);
-  border-color: var(--header-nav-color-accent);
-  background-color: var(--header-background-color);
-}
-@media screen and (min-width: 768px) {
-  .language__select {
-    font-size: 10px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .language__select {
-    font-size: 16px;
-  }
-}
-
 .main__about-section {
   background-color: white;
 }
