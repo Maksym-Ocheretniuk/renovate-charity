@@ -1,5 +1,5 @@
 const allLangs = ['ua', 'en'];
-let currentLang = localStorage.getItem("language") || 'ua';
+let currentLang = localStorage.getItem("language") || checkBrowserLang() || 'ua';
 const langButtons = document.querySelectorAll("[data-btn]");
 const currentPathName = window.location.pathname;
 let currentText = {};
@@ -92,6 +92,71 @@ const langFooterTexts = {
   "lang__footer-address-copyright" : {
     "ua": `&#169; 2024 - Благодійний фонд "ЗАНОВО". <br class="footer__br"> Всі права захищені.`,
     "en": "&#169; 2024 - Renovate Charity Foundation. <br class=\"footer__br\"> All rights reserved.",
+  },
+}
+
+const langHomeTextsHero = {
+  "lang__hero" :  {
+    "ua": `<span class="hero__title-primary">с</span>
+      <span class="hero__title-primary">в</span>
+      <span class="hero__title-primary">о</span>
+      <span class="hero__title-primary">є</span>
+      <span class="hero__title-primary">&nbsp;</span>
+      <span class="hero__title-accent">з</span>
+      <span class="hero__title-accent">а</span>
+      <span class="hero__title-accent">х</span>
+      <span class="hero__title-accent">и</span>
+      <span class="hero__title-accent">с</span>
+      <span class="hero__title-accent">т</span>
+      <span class="hero__title-accent">и</span>
+      <span class="hero__title-accent">м</span>
+      <span class="hero__title-accent">о</span>
+      <span class="hero__title-accent">,</span>
+      <span class="hero__title-primary"><br></span>
+      <span class="hero__title-accent">в</span>
+      <span class="hero__title-accent">і</span>
+      <span class="hero__title-accent">д</span>
+      <span class="hero__title-accent">б</span>
+      <span class="hero__title-accent">у</span>
+      <span class="hero__title-accent">д</span>
+      <span class="hero__title-accent">у</span>
+      <span class="hero__title-accent">є</span>
+      <span class="hero__title-accent">м</span>
+      <span class="hero__title-accent">о</span>
+      <span class="hero__title-primary">&nbsp;</span>
+      <span class="hero__title-primary">з</span>
+      <span class="hero__title-primary">а</span>
+      <span class="hero__title-primary">н</span>
+      <span class="hero__title-primary">о</span>
+      <span class="hero__title-primary">в</span>
+      <span class="hero__title-primary">о</span>
+      <span class="hero__title-primary">!</span>`,
+    "en": `<span class="hero__title-primary">o</span>
+      <span class="hero__title-primary">u</span>
+      <span class="hero__title-primary">r</span>
+      <span class="hero__title-primary">s</span>
+      <span class="hero__title-primary">&nbsp;</span>
+      <span class="hero__title-accent">p</span>
+      <span class="hero__title-accent">r</span>
+      <span class="hero__title-accent">o</span>
+      <span class="hero__title-accent">t</span>
+      <span class="hero__title-accent">e</span>
+      <span class="hero__title-accent">c</span>
+      <span class="hero__title-accent">t</span>
+      <span class="hero__title-accent">,</span>
+      <span class="hero__title-primary"><br></span>
+      <span class="hero__title-accent">r</span>
+      <span class="hero__title-accent">e</span>
+      <span class="hero__title-accent">b</span>
+      <span class="hero__title-accent">i</span>
+      <span class="hero__title-accent">l</span>
+      <span class="hero__title-accent">d</span>
+      <span class="hero__title-primary">&nbsp;</span>
+      <span class="hero__title-primary">a</span>
+      <span class="hero__title-primary">n</span>
+      <span class="hero__title-primary">e</span>
+      <span class="hero__title-primary">w</span>
+      <span class="hero__title-primary">!</span>`,
   },
 }
 
@@ -232,7 +297,7 @@ const langAboutUsTexts = {
 function checkPagePathName() {
   switch (currentPathName) {
     case '/index.html':
-      currentText = Object.assign(langHomeTextsAbout, langHomeTextsIcons, langHeaderTexts, langFooterTexts);
+      currentText = Object.assign(langHomeTextsHero, langHomeTextsAbout, langHomeTextsIcons, langHeaderTexts, langFooterTexts);
       break;
     case '/about-us.html':
       currentText = Object.assign(langAboutUsTexts, langHeaderTexts);
@@ -249,7 +314,7 @@ function changeLang() {
   for (const key in currentText) {
     const element = document.querySelector(`[data-lang=${key}]`);
     if (element) {
-      element.textContent = currentText[key][currentLang];
+      element.innerHTML = currentText[key][currentLang];
     }
   }
 }
@@ -270,3 +335,54 @@ function resetActiveClassBtnLang(arr, activeClassBtnLang) {
     element.classList.remove(activeClassBtnLang)
   })
 }
+
+// function checkActiveLangButton() {
+//   switch (currentLang) {
+//     case "ua":
+//       document.querySelector(`[data-btn="ua"]`).classList.add("header__lang-btn-active");
+//       break;
+//     case "en":
+//       document.querySelector(`[data-btn="en"]`).classList.add("header__lang-btn-active");
+//       break;
+  
+//     default:
+//       document.querySelector(`[data-btn="ua"]`).classList.add("header__lang-btn-active");
+//       break;
+//   }
+// }
+
+function checkActiveLangButton() {
+  let langButton;
+  switch (currentLang) {
+    case "ua":
+      langButton = document.querySelector(`[data-btn="ua"]`);
+      break;
+    case "en":
+      langButton = document.querySelector(`[data-btn="en"]`);
+      break;
+    default:
+      langButton = document.querySelector(`[data-btn="ua"]`);
+      break;
+  }
+
+  if (langButton) {
+    langButton.classList.add("header__lang-btn-active");
+  } else {
+    console.error(`Element with data-btn="${currentLang}" not found.`);
+  }
+}
+checkActiveLangButton();
+
+function checkBrowserLang() {
+  const navigatorLang = navigator.language.slice(0, 2).toLowerCase();
+  const result = allLangs.some((element) => {
+    return element === navigatorLang;
+  });
+
+  if (result) {
+    return navigatorLang;
+  }
+}
+
+// console.log("lang", navigator.language.slice(0, 2));
+// console.log("check", checkBrowserLang());
