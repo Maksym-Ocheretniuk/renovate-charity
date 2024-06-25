@@ -1,0 +1,51 @@
+{
+  "lang__menu-link-home" : {
+    "ua": "Фонд \"ЗАНОВО\"",
+    "en": "Fund \"RENOVATE\""
+  },
+  "lang__menu-link-projects" : {
+    "ua": "Проєкти",
+    "en": "Projects"
+  },
+  "lang__menu-link-about" : {
+    "ua": "Про нас",
+    "en": "About us"
+  },
+  "lang__menu-link-report" : {
+    "ua": "Звіти і Подяки",
+    "en": "Reports and Thanks"
+  },
+  "lang__menu-link-contacts" : {
+    "ua": "Контакти",
+    "en": "Contacts"
+  },
+  "lang__menu-link-donate" : {
+    "ua": "Зробити донат",
+    "en": "Donation"
+  },
+
+  "lang__menu-sub-link-zsu-help" : {
+    "ua": "Допомога ЗСУ",
+    "en": "ZSU Help"
+  },
+  "lang__menu-sub-link-reconstruction" : {
+    "ua": "Відбудова країни",
+    "en": "Reconstruction"
+  },
+  "lang__menu-sub-link-nets" : {
+    "ua": "Загін СМС",
+    "en": "Squad of NCF"
+  },
+  "lang__menu-sub-link-candle" : {
+    "ua": "Сили ССО",
+    "en": "Powers of SCO"
+  },
+  "lang__menu-sub-link-humanitarian" : {
+    "ua": "Гуманітарна допомога",
+    "en": "Humanitarian help"
+  },
+  "lang__menu-sub-link-events" : {
+    "ua": "Благодійні заходи",
+    "en": "Charity Events"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "lang__footer-address-title" : {
+    "ua": "Благодійний фонд ''ЗАНОВО''",
+    "en": "Charity Fund ''RENOVATE''"
+  },
+  "lang__footer-address-recvizit" : {
+    "ua": "ЄДРПОУ: 44659830",
+    "en": "ID TAX: 44659830"
+  },
+  "lang__footer-address-location" : {
+    "ua": "м. Київ, вул. Дегтярівська 5",
+    "en": "Kyiv, Degtyarivska St. 5"
+  },
+
+  "lang__footer-qr-title" : {
+    "ua": "Постійний збір",
+    "en": "Constant donation"
+  },
+
+  "lang__footer-docs-link-statute" : {
+    "ua": "Статут",
+    "en": "Statute"
+  },
+  "lang__footer-docs-link-extract" : {
+    "ua": "Витяг з реєстру",
+    "en": "Registry extract"
+  },
+  "lang__footer-docs-link-certificate" : {
+    "ua": "Довідка про неприбутковість",
+    "en": "Non-profit certificate"
+  },
+
+  "lang__footer-address-copyright" : {
+    "ua": "&#169; 2024 - Благодійний фонд \"ЗАНОВО\". <br class=\"footer__br\"> Всі права захищені.",
+    "en": "&#169; 2024 - Renovate Charity Foundation. <br class=\"footer__br\"> All rights reserved."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "lang__donate-title" : {
+    "ua": "Допомогти",
+    "en": "Make a donation"
+  },
+  "lang__donate-nets-title" : {
+    "ua": "Підтримати постійний збір на маскувальні сітки",
+    "en": "Support the permanent collection of masking nets"
+  },
+  "lang__donate-nets-link-title" : {
+    "ua": "&#128279; Посилання на банку",
+    "en": "&#128279; Donation link"
+  },
+  "lang__donate-nets-credit-title" : {
+    "ua": "&#128179; Номер картки банки",
+    "en": "&#128179; Bank card number for donation"
+  },
+  "lang__donate-bank-title" : {
+    "ua": "Для банківського переказу:",
+    "en": "For bank transfer:"
+  },
+  "lang__donate-bank-details-title" : {
+    "ua": "(UAH) Українська гривня",
+    "en": "(UAH) Ukrainian hryvnia"
+  }
+}

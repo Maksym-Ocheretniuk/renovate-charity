@@ -1,0 +1,54 @@
+// --- Header language buttons ---
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1200px) {}
+
+.header__lang-container {
+  display: flex;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+  // @media screen and (min-width: 1200px) {}
+}
+
+.header__lang-btn {
+  font-family: 'Montserrat', 'Roboto', Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+
+  padding: 5px 10px;
+  background: none;
+  color: var(--header-color-primary);
+
+  border-radius: 10px;
+  border: 1px solid var(--header-color-primary);
+
+  cursor: pointer;
+  transition: var(--animation-base);
+  
+  &:hover,
+  &:focus {
+    color: var(--header-nav-color-accent);
+    border-color: var(--header-nav-color-accent);
+    background-color: var(--header-background-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 10px;
+    padding: 3px 7px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 12px;
+  }
+}
+
+.header__lang-btn-active {
+  color: var(--header-nav-color-accent);
+  border-color: var(--header-nav-color-accent);
+  background-color: var(--header-background-color);
+}
