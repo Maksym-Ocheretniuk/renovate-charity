@@ -5,6 +5,10 @@ import langAboutUsTexts from '../data/langAboutUsTexts.json';
 import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 import langDonateTexts from '../data/langDonateTexts.json';
 import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
+import langReconstructionTexts from '../data/langReconstructionTexts.json';
+// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
+// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
+// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -36,6 +40,26 @@ function checkPagePathName() {
     case '/unit-zsu-help.html':
       currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
       break;
+    
+    case '/unit-reconstruction.html':
+      currentText = Object.assign(langReconstructionTexts, langHeaderTexts, langFooterTexts);
+      break;
+
+    // case '/unit-zsu-help.html':
+    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
+    //   break;
+
+    // case '/unit-zsu-help.html':
+    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
+    //   break;
+
+    // case '/unit-zsu-help.html':
+    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
+    //   break;
+
+    // case '/unit-zsu-help.html':
+    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
+    //   break;
   
     default:
       currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
