@@ -4,6 +4,7 @@ import langHomeTexts from '../data/langHomeTexts.json';
 import langAboutUsTexts from '../data/langAboutUsTexts.json';
 import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 import langDonateTexts from '../data/langDonateTexts.json';
+import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -15,17 +16,25 @@ let currentText = {};
 
 function checkPagePathName() {
   switch (currentPathName) {
+    
     case '/index.html':
       currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
       break;
+    
     case '/about-us.html':
       currentText = Object.assign(langAboutUsTexts, langHeaderTexts, langFooterTexts);
       break;
+    
     case '/fund-report.html':
       currentText = Object.assign(langReportsAndThanksTexts, langHeaderTexts, langFooterTexts);
       break;
+    
     case '/donate.html':
       currentText = Object.assign(langDonateTexts, langHeaderTexts, langFooterTexts);
+      break;
+    
+    case '/unit-zsu-help.html':
+      currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
       break;
   
     default:
