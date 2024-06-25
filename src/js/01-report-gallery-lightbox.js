@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { reportsGalleryItems } from './01-gallery-report-items.js';
 
-console.log(reportsGalleryItems);
+// console.log(reportsGalleryItems);
 
 // Знаходимо галерею та її елементи "li"
 const reportsGalleryEl = document.querySelector('.reports-gallery');

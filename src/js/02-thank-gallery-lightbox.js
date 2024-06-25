@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { thanksGalleryItems } from './02-gallery-thank-items';
 
-console.log(thanksGalleryItems);
+// console.log(thanksGalleryItems);
 
 // Знаходимо галерею та її елементи "li"
 const thanksGalleryEl = document.querySelector('.thanks-gallery');
