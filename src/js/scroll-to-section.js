@@ -13,7 +13,7 @@
 
 const scrollButtons = document.querySelectorAll('.menu__link[data-goto]');
 
-console.log("scrollButtons: ", scrollButtons);
+// console.log("scrollButtons: ", scrollButtons);
 
 if (scrollButtons.length > 0) {
   scrollButtons.forEach(scrollButton => {
