@@ -3,6 +3,7 @@ import langFooterTexts from '../data/langFooterTexts.json';
 import langHomeTexts from '../data/langHomeTexts.json';
 import langAboutUsTexts from '../data/langAboutUsTexts.json';
 import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
+import langDonateTexts from '../data/langDonateTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -22,6 +23,9 @@ function checkPagePathName() {
       break;
     case '/fund-report.html':
       currentText = Object.assign(langReportsAndThanksTexts, langHeaderTexts, langFooterTexts);
+      break;
+    case '/donate.html':
+      currentText = Object.assign(langDonateTexts, langHeaderTexts, langFooterTexts);
       break;
   
     default:
