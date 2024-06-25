@@ -336,21 +336,6 @@ function resetActiveClassBtnLang(arr, activeClassBtnLang) {
   })
 }
 
-// function checkActiveLangButton() {
-//   switch (currentLang) {
-//     case "ua":
-//       document.querySelector(`[data-btn="ua"]`).classList.add("header__lang-btn-active");
-//       break;
-//     case "en":
-//       document.querySelector(`[data-btn="en"]`).classList.add("header__lang-btn-active");
-//       break;
-  
-//     default:
-//       document.querySelector(`[data-btn="ua"]`).classList.add("header__lang-btn-active");
-//       break;
-//   }
-// }
-
 function checkActiveLangButton() {
   let langButton;
   switch (currentLang) {
@@ -383,6 +368,3 @@ function checkBrowserLang() {
     return navigatorLang;
   }
 }
-
-// console.log("lang", navigator.language.slice(0, 2));
-// console.log("check", checkBrowserLang());
