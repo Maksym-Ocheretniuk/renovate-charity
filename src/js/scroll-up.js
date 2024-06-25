@@ -2,10 +2,14 @@
 
 var scrollUpBtn = document.querySelector('.scroll-up');
 
-window.addEventListener('scroll', function() {
-  scrollUpBtn.classList.toggle('active', window.scrollY > 500)
+window.addEventListener('scroll', function () {
+  if (scrollUpBtn) {
+    scrollUpBtn.classList.toggle('active', window.scrollY > 500)
+  }
 })
 
-scrollUpBtn.addEventListener('click', () => {
-    document.documentElement.scrollTop = 0;
-  });
+if (scrollUpBtn) {
+  scrollUpBtn.addEventListener('click', () => {
+      document.documentElement.scrollTop = 0;
+    });
+}
