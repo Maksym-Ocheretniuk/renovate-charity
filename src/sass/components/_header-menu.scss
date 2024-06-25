@@ -91,11 +91,6 @@
 }
 
 .menu__body {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  align-items: center;
-
   @media screen and (max-width: 767px) {
     position: fixed;
     top: 0;
@@ -110,10 +105,10 @@
   }
 
   @media screen and (min-width: 768px) {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
   }
-
   @media screen and (min-width: 1200px) {
     gap: 35px;
   }
@@ -143,6 +138,10 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

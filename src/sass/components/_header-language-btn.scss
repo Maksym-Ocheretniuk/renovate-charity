@@ -4,8 +4,13 @@
 
 .header__lang-container {
   display: flex;
-  gap: 20px;
+  align-items: center;
 
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+    gap: 20px;
+  }
+  
   @media screen and (min-width: 768px) {
     flex-direction: column;
     gap: 5px;
