@@ -6,7 +6,7 @@ import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 import langDonateTexts from '../data/langDonateTexts.json';
 import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 import langReconstructionTexts from '../data/langReconstructionTexts.json';
-// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
+import langNetsTexts from '../data/langNetsTexts.json';
 // import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 // import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 
@@ -45,9 +45,9 @@ function checkPagePathName() {
       currentText = Object.assign(langReconstructionTexts, langHeaderTexts, langFooterTexts);
       break;
 
-    // case '/unit-zsu-help.html':
-    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
-    //   break;
+    case '/unit-nets.html':
+      currentText = Object.assign(langNetsTexts, langHeaderTexts, langFooterTexts);
+      break;
 
     // case '/unit-zsu-help.html':
     //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
