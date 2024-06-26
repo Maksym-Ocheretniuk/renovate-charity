@@ -1,4 +1,8 @@
 {
+  "lang__donate-page-title" : {
+    "ua": "БФ \"ЗАНОВО\". Зробити донат.",
+    "en": "RENOVATE CHARITY. Donation."
+  },
   "lang__donate-title" : {
     "ua": "Допомогти",
     "en": "Make a donation"
