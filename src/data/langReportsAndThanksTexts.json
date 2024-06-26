@@ -1,9 +1,13 @@
 {
+  "lang__reports-page-title" :  {
+    "ua": "БФ \"ЗАНОВО\". Звіти та Подяки фонду.",
+    "en": "RENOVATE CHARITY. Fund Report and Thanks."
+  },
   "lang__reports-title" : {
     "ua": "Звіти БФ \"Заново\"",
     "en": "Reports of Charity Fund \"Renovate\""
   },
-  "lang__thank-title" : {
+  "lang__thanks-title" : {
     "ua": "Подяки для БФ \"Заново\"",
     "en": "Thanks to Charity Fund \"Renovate\""
   }

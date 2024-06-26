@@ -2,13 +2,14 @@ import langHeaderTexts from '../data/langHeaderTexts.json';
 import langFooterTexts from '../data/langFooterTexts.json';
 import langHomeTexts from '../data/langHomeTexts.json';
 import langAboutUsTexts from '../data/langAboutUsTexts.json';
-import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 import langDonateTexts from '../data/langDonateTexts.json';
 import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 import langReconstructionTexts from '../data/langReconstructionTexts.json';
 import langNetsTexts from '../data/langNetsTexts.json';
 import langHumanitarianHelpTexts from '../data/langHumanitarianHelpTexts.json';
 import langEventsTexts from '../data/langEventsTexts.json';
+import langCandleTexts from '../data/langCandleTexts.json';
+import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -55,6 +56,10 @@ function checkPagePathName() {
 
     case '/unit-events.html':
       currentText = Object.assign(langEventsTexts, langHeaderTexts, langFooterTexts);
+      break;
+    
+    case '/unit-candle.html':
+      currentText = Object.assign(langCandleTexts, langHeaderTexts, langFooterTexts);
       break;
   
     default:
