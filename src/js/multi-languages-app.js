@@ -7,8 +7,8 @@ import langDonateTexts from '../data/langDonateTexts.json';
 import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 import langReconstructionTexts from '../data/langReconstructionTexts.json';
 import langNetsTexts from '../data/langNetsTexts.json';
-// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
-// import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
+import langHumanitarianHelpTexts from '../data/langHumanitarianHelpTexts.json';
+// import langEventsTexts from '../data/langEventsTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -49,20 +49,16 @@ function checkPagePathName() {
       currentText = Object.assign(langNetsTexts, langHeaderTexts, langFooterTexts);
       break;
 
-    // case '/unit-zsu-help.html':
-    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
-    //   break;
+    case '/unit-humanitarian-help.html':
+      currentText = Object.assign(langHumanitarianHelpTexts, langHeaderTexts, langFooterTexts);
+      break;
 
-    // case '/unit-zsu-help.html':
-    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
-    //   break;
-
-    // case '/unit-zsu-help.html':
-    //   currentText = Object.assign(langZSUHelpTexts, langHeaderTexts, langFooterTexts);
+    // case '/unit-events.html':
+    //   currentText = Object.assign(langEventsTexts, langHeaderTexts, langFooterTexts);
     //   break;
   
     default:
-      currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
+      // currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
       break;
   }
 }
