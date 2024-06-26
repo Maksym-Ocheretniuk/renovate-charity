@@ -26,7 +26,7 @@
 
   "lang__menu-sub-link-zsu-help" : {
     "ua": "Допомога ЗСУ",
-    "en": "ZSU Help"
+    "en": "ZSU help"
   },
   "lang__menu-sub-link-reconstruction" : {
     "ua": "Відбудова країни",
@@ -38,7 +38,7 @@
   },
   "lang__menu-sub-link-candle" : {
     "ua": "Сили ССО",
-    "en": "Powers of SCO"
+    "en": "Forces of SCO"
   },
   "lang__menu-sub-link-humanitarian" : {
     "ua": "Гуманітарна допомога",
@@ -46,6 +46,6 @@
   },
   "lang__menu-sub-link-events" : {
     "ua": "Благодійні заходи",
-    "en": "Charity Events"
+    "en": "Charity events"
   }
 }
