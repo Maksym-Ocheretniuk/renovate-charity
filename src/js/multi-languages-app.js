@@ -8,7 +8,7 @@ import langZSUHelpTexts from '../data/langZSUHelpTexts.json';
 import langReconstructionTexts from '../data/langReconstructionTexts.json';
 import langNetsTexts from '../data/langNetsTexts.json';
 import langHumanitarianHelpTexts from '../data/langHumanitarianHelpTexts.json';
-// import langEventsTexts from '../data/langEventsTexts.json';
+import langEventsTexts from '../data/langEventsTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -53,9 +53,9 @@ function checkPagePathName() {
       currentText = Object.assign(langHumanitarianHelpTexts, langHeaderTexts, langFooterTexts);
       break;
 
-    // case '/unit-events.html':
-    //   currentText = Object.assign(langEventsTexts, langHeaderTexts, langFooterTexts);
-    //   break;
+    case '/unit-events.html':
+      currentText = Object.assign(langEventsTexts, langHeaderTexts, langFooterTexts);
+      break;
   
     default:
       // currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);

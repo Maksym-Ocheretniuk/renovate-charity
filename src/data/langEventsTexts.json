@@ -1,0 +1,140 @@
+{
+  "lang__events-page-title" :  {
+    "ua": "БФ \"ЗАНОВО\". Благодійні заходи.",
+    "en": "RENOVATE CHARITY. Project \"Charity Events\""
+  },
+  "lang__events-title" : {
+    "ua": "Благодійні заходи",
+    "en": "Charity Events"
+  },
+  "lang__events-list-title-1" : {
+    "ua": "Дитячий фестиваль (30.06 - 02.07.2023)",
+    "en": "Children's Festival (June 30 - July 2, 2023)"
+  },
+  "lang__events-list-description-1-1" : {
+    "ua": "Дитячий міні-фестиваль культури і мистецтва \"<span class=\"text-uppercase\">ми вдома</span>\". Пізнавально-розважальний захід, який об’єднав дітей від 4 до 15 років з родин, вимушених переїхати до безпечніших регіонів через війну. Три вистави, вісім майстер-класів, дві екскурсії у сучасний інноваційний музей української історії та зустріч батьків з психологом зі стресових ситуацій – заповнили фестивальні дні.",
+    "en": "A mini-festival of culture and arts \"<span class=\"text-uppercase\">We Are Home</span>\" for children aged 4 to 15 from families forced to relocate to safer regions due to the war. The festival featured three performances, eight workshops, two excursions to a modern innovative museum of Ukrainian history, and a meeting of parents with a psychologist about stress situations."
+  },
+  "lang__events-list-description-1-2" : {
+    "ua": "Фестиваль реалізовано за фінансової підтримки програмою <span class=\"text-bold\">Culture Helps / Культура допомагає</span>, яка імплементована <span class=\"text-bold\">Іншою Освітою</span> спільно з <span class=\"text-bold\">zusa</span> за підтримки <span class=\"text-bold\">Європейського Союзу</span>.",
+    "en": "The festival was implemented with financial support from the <span class=\"text-bold\">Culture Helps</span> program, implemented by <span class=\"text-bold\">Another Education</span> in cooperation with <span class=\"text-bold\">zusa</span> with the support of the <span class=\"text-bold\">European Union</span>."
+  },
+
+  "lang__events-list-title-2" : {
+    "ua": "Майстер-клас (18.09.2022)",
+    "en": "Workshop (September 18, 2022)"
+  },
+  "lang__events-list-description-2-1" : {
+    "ua": "Благодійний майстер-клас \"<span class=\"text-uppercase\">бачата для початківців</span>\" від тренерів-засновників танцювальної школи \"Mambo 3.0\": Катя Кузнєцова (10 років досвіду викладання) та Олександр Ільніцький (6 років досвіду викладання).",
+    "en": "A charity workshop \"<span class=\"text-uppercase\">Bachata for Beginners</span>\" by the trainers-founders of the dance school \"Mambo 3.0\": Katya Kuznetsova (10 years of teaching experience) and Oleksandr Ilnytskyi (6 years of teaching experience)."
+  },
+  "lang__events-list-description-2-2" : {
+    "ua": "<span class=\"text-uppercase\">Handmade ярмарок</span>. Благодійний захід організовано для відновлення інклюзивного дитячого садочку \"Схід\" у м. Києві, який постраждав від вибуху.",
+    "en": "<span class=\"text-uppercase\">Handmade fair.</span>. The charity event was organized to restore the inclusive kindergarten \"Skhid\" in Kyiv, which was damaged by an explosion."
+  },
+
+  "lang__events-list-title-3" : {
+    "ua": "Лекція (14.08.2022)",
+    "en": "Lecture (August 14, 2022)"
+  },
+  "lang__events-list-description-3-1" : {
+    "ua": "Благодійна лекція \"<span class=\"text-uppercase\">Тату для початківців</span>\" від лектора <span class=\"text-uppercase\">Sanuch</span>. Відомий тату-майстер, 8 років досвіду, 3 роки викладання в тату школі.",
+    "en": "A charity lecture \"<span class=\"text-uppercase\">Tattoo for Beginners</span>\" by lecturer Sanuch, a renowned tattoo artist with 8 years of experience and 3 years of teaching in a tattoo school."
+  },
+  "lang__events-list-description-3-2" : {
+    "ua": "<span class=\"text-uppercase\">Handmade ярмарок</span>. Майстри демонструють свої роботи, відвідувачі знаходять серед безліч скарбів собі щось для душі!",
+    "en": "<span class=\"text-uppercase\">Handmade fair</span>. Masters showcased their work, and visitors found something special among many treasures!"
+  },
+  "lang__events-list-description-3-3" : {
+    "ua": "Благодійний захід організовано для збору коштів на дитячий інклюзивний садочок \"Схід\" у Києві.",
+    "en": "The charity event was organized to raise funds for the \"Skhid\" inclusive kindergarten in Kyiv."
+  },
+
+  "lang__events-list-title-4" : {
+    "ua": "<span class=\"text-uppercase\">Концерт</span> та <span class=\"text-uppercase\">handmade ярмарок</span> (16.07.2022)",
+    "en": "<span class=\"text-uppercase\">Concert</span> and <span class=\"text-uppercase\">Handmade Fair</span> (July 16, 2022)"
+  },
+  "lang__events-list-description-4-1" : {
+    "ua": "Благодійний концерт від гурту \"<span class=\"text-uppercase\">Шпилясті кобзарі</span>\", Ярослав Джусь, Margarita Meleshko, The Oscar Wild.",
+    "en": "A charity concert by the band \"<span class=\"text-uppercase\">Shpylyasti Kobzari</span>\", Yaroslav Dzhus, Margarita Meleshko, and The Oscar Wild."
+  },
+  "lang__events-list-description-4-2" : {
+    "ua": "<span class=\"text-uppercase\">Handmade ярмарок</span>. Благодійний захід організовано для збору коштів на:",
+    "en": "<span class=\"text-uppercase\">Handmade fair</span>. The charity event was organized to raise funds for:"
+  },
+  "lang__events-list-description-4-3" : {
+    "ua": "відбудови дитячого садочку в Бородянці та інклюзивного центру в Києві;",
+    "en": "the reconstruction of the kindergarten in Borodyanka and the inclusive center in Kyiv;"
+  },
+  "lang__events-list-description-4-4" : {
+    "ua": "допомоги батальйону ТрО Миргородського району (2 рота), взводу розвідки (808 полк) та 241 окремої бригади ТрО.",
+    "en": "assistance to the Myrhorod district TDF battalion (2nd company), reconnaissance platoon (808 regiment), and 241st separate TDF brigade."
+  },
+
+  "lang__events-list-title-5" : {
+    "ua": "<span class=\"text-uppercase\">Імпровізація</span> та <span class=\"text-uppercase\">handmade ярмарок</span> (15.07.2022)",
+    "en": "<span class=\"text-uppercase\">Improvisation</span> and <span class=\"text-uppercase\">Handmade Fair</span> (July 15, 2022)"
+  },
+  "lang__events-list-description-5-1" : {
+    "ua": "Благодійне комедійне шоу-імпровізація від \"<span class=\"text-uppercase\">Banger Improv</span>\". Круте імпровізаційне шоу, на якому люди отримують безліч позитивних емоцій та додадуть декілька років до свого життя.",
+    "en": "A charity comedy improvisation show by \"<span class=\"text-uppercase\">Banger Improv</span>\". A great improvisational show that brings lots of positive emotions and adds a few years to life."
+  },
+  "lang__events-list-description-5-2" : {
+    "ua": "Handmade ярмарок</span>. Майстри демонструють свої роботи, відвідувачі знаходять серед безліч скарбів собі щось для душі!",
+    "en": "<span class=\"text-uppercase\">Handmade fair</span>. Masters showcased their work, and visitors found something special among many treasures!"
+  },
+  "lang__events-list-description-5-3" : {
+    "ua": "Благодійний захід організовано для збору коштів на дві добрі справи:",
+    "en": "The charity event was organized to raise funds for two good causes:"
+  },
+  "lang__events-list-description-5-4" : {
+    "ua": "заміна вікон у дитячому садочку \"Казка\" в Бородянці;",
+    "en": "replacement of windows in the \"Kazka\" kindergarten in Borodyanka;"
+  },
+  "lang__events-list-description-5-5" : {
+    "ua": "відновлення дитячого інклюзивного садочку \"Схід\" у Києві.",
+    "en": "restoration of the \"Skhid\" inclusive kindergarten in Kyiv."
+  },
+
+  "lang__events-list-title-6" : {
+    "ua": "<span class=\"text-uppercase\">Імпровізація</span> та <span class=\"text-uppercase\">handmade ярмарок</span> (26.06.2022)",
+    "en": "<span class=\"text-uppercase\">Improvisation</span> and <span class=\"text-uppercase\">Handmade Fair</span> (June 26, 2022)"
+  }, 
+  "lang__events-list-description-6-1" : {
+    "ua": "Благодійне комедійне шоу-імпровізація від \"<span class=\"text-uppercase\">Banger Improv</span>\". Ніякого сценарію! Ніяких заготовок від акторів! Приходьте відпочити, посміятися та допомогти у добрих справах!",
+    "en": "A charity comedy improvisation show by \"<span class=\"text-uppercase\">Banger Improv</span>\". No script! No pre-prepared scenes! Come to relax, laugh, and help with good deeds!"
+  },
+  "lang__events-list-description-6-2" : {
+    "ua": "<span class=\"text-uppercase\">Handmade ярмарок</span>. Благодійний захід організовано для збору коштів на дві добрі справи:",
+    "en": "<span class=\"text-uppercase\">Handmade fair.</span>. The charity event was organized to raise funds for two good causes:"
+  },
+  "lang__events-list-description-6-3" : {
+    "ua": "заміна вікон у дитячому садочку \"Казка\" в Бородянці;",
+    "en": "replacement of windows in the \"Kazka\" kindergarten in Borodyanka;"
+  },
+  "lang__events-list-description-6-4" : {
+    "ua": "відновлення дитячого інклюзивного садочку \"Схід\" у Києві.",
+    "en": "restoration of the \"Skhid\" inclusive kindergarten in Kyiv."
+  },
+
+  "lang__events-list-title-7" : {
+    "ua": "<span class=\"text-uppercase\">Благодійна вистава</span> та <span class=\"text-uppercase\">handmade ярмарок</span> (11.06.2022)",
+    "en": "<span class=\"text-uppercase\">Charity Performance</span> and <span class=\"text-uppercase\">Handmade Fair</span> (June 11, 2022)"
+  },
+  "lang__events-list-description-7-1" : {
+    "ua": "Благодійна вистава \"<span class=\"text-uppercase\">Крадії жіночих сердець</span>\" (режисер – заслужений артист України Руслан Гофуров) та <span class=\"text-uppercase\">handmade ярмарок</span>: картини, м’які іграшки, вазони для квітів, стікери, сережки та намисто з національними мотивами – кожен знайде щось собі до душі.",
+    "en": "Charity performance \"<span class=\"text-uppercase\">Heart Thieves</span>\" (directed by honored artist of Ukraine Ruslan Hofurov) and <span class=\"text-uppercase\">handmade fair</span>: paintings, soft toys, flower pots, stickers, earrings, and necklaces with national motifs – everyone found something to their liking."
+  },
+  "lang__events-list-description-7-2" : {
+    "ua": "Благодійний захід організовано для збору коштів на дві добрі справи:",
+    "en": "The charity event was organized to raise funds for two good causes:"
+  },
+  "lang__events-list-description-7-3" : {
+    "ua": "відновлення дитячого садочку у Бородянці;",
+    "en": "reconstruction of the kindergarten in Borodyanka;"
+  },
+  "lang__events-list-description-7-4" : {
+    "ua": "порятунок сім’ї волонтера з окупованої території.",
+    "en": "saving the family of a volunteer from an occupied territory."
+  }
+}
