@@ -17,15 +17,3 @@ if (correspondentButtons.length > 0) {
     })
   }
 }
-
-// !------------
-// let description = document.getElementById('bankDetails');
-  
-// function bankDetailsShow() {
-//   if (description.style.display === 'none') {
-//     description.style.display = 'block';
-//   }
-//   else {
-//     description.style.display = 'none';
-//   }
-// }
