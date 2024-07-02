@@ -1,9 +1,5 @@
 // прокрутка до необхідної секції/опису проєкту при кліку на кнопку-посилання
-// "data-goto=".scroll__data-1" - стороінка "unit-reconstruction" (Відбудова країни)
-// "data-goto=".scroll__data-2" - стороінка "unit-reconstruction" (Відбудова країни)
-// "data-goto=".scroll__data-3" - стороінка "unit-reconstruction" (Відбудова країни)
-// "data-goto=".scroll__data-4" - стороінка "unit-reconstruction" (Відбудова країни)
-// "data-goto=".scroll__data-5" - секція "HEADER" (кнопка "Контакти")
+// "data-goto=".scroll__data-1" - секція "HEADER" (кнопка "Контакти" і перехід в FOOTER)
 
 // const scrollButtons = document.querySelectorAll('.reconstruction__btn[data-goto]') || document.querySelectorAll('.reconstruction__btn-title[data-goto]') || document.querySelectorAll('.reconstruction__btn-city[data-goto]') || document.querySelectorAll('.menu__link[data-goto]');
 

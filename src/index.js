@@ -4,7 +4,7 @@ import './js/multi-languages-app';
 
 import './js/mobile-menu';
 
-import './js/scroll-to-section';
+import './js/scroll-to-footer';
 
 import './js/correspondent-banks';
 
