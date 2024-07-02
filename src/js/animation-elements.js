@@ -1,23 +1,3 @@
-// window.addEventListener('scroll', onAnimReveal);
-
-// function onAnimReveal() {
-//   var animReveals = document.querySelectorAll('.animation');
-
-//   for (let i = 0; i < animReveals.length; i++) {
-    
-//     var windowHeight = window.innerHeight;
-//     var revealTop = animReveals[i].getBoundingClientRect().top;
-//     var revealPoint = 30;
-
-//     if (revealTop < windowHeight) {
-//       animReveals[i].classList.add('animation-active');
-//     }
-//     else {
-//       animReveals[i].classList.remove('animation-active');
-//     }
-//   }
-// }
-
 import ScrollReveal from 'scrollreveal';
 
 // const ScrollReveal = require('scrollreveal');
@@ -28,11 +8,6 @@ ScrollReveal({
   duration: 1250,
   delay: 200
 });
-
-// ScrollReveal().reveal('.animation', {
-//   distance: '20px',
-//   delay: 200
-// });
 
 ScrollReveal().reveal('.animation__icon', {
   distance: '20px',
