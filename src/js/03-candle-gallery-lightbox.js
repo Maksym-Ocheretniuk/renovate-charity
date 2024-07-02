@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { candlesGalleryItems } from './03-gallery-candle-items.js';
 
-console.log(candlesGalleryItems);
+// console.log(candlesGalleryItems);
 
 // Знаходимо галерею та її елементи "li"
 const candlesGalleryEl = document.querySelector('.candles-gallery');

@@ -8,8 +8,8 @@ import langReconstructionTexts from '../data/langReconstructionTexts.json';
 import langNetsTexts from '../data/langNetsTexts.json';
 import langHumanitarianHelpTexts from '../data/langHumanitarianHelpTexts.json';
 import langEventsTexts from '../data/langEventsTexts.json';
-// import langCandleTexts from '../data/langCandleTexts.json';
-// import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
+import langCandleTexts from '../data/langCandleTexts.json';
+import langReportsAndThanksTexts from '../data/langReportsAndThanksTexts.json';
 
 // console.log(langHeaderTexts)
 
@@ -54,16 +54,16 @@ function checkPagePathName() {
       currentText = Object.assign(langEventsTexts, langHeaderTexts, langFooterTexts);
       break;
     
-    // case '/fund-report.html':
-    //   currentText = Object.assign(langReportsAndThanksTexts, langHeaderTexts, langFooterTexts);
-    //   break;
+    case '/fund-report.html':
+      currentText = Object.assign(langReportsAndThanksTexts, langHeaderTexts, langFooterTexts);
+      break;
     
-    // case '/unit-candle.html':
-    //   currentText = Object.assign(langCandleTexts, langHeaderTexts, langFooterTexts);
-    //   break;
+    case '/unit-candle.html':
+      currentText = Object.assign(langCandleTexts, langHeaderTexts, langFooterTexts);
+      break;
   
     default:
-      // currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
+      currentText = Object.assign(langHomeTexts, langHeaderTexts, langFooterTexts);
       break;
   }
 }
