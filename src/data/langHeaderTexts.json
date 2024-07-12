@@ -1,6 +1,6 @@
 {
   "lang__menu-link-home" : {
-    "ua": "Фонд \"ЗАНОВО\"",
+    "ua": "<span class=\"text-uppercase\">\"Заново\"</span>",
     "en": "<span class=\"text-uppercase\">\"Renovate\"</span>"
   },
   "lang__menu-link-projects" : {
