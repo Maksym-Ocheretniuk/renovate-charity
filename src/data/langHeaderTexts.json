@@ -1,7 +1,7 @@
 {
   "lang__menu-link-home" : {
     "ua": "Фонд \"ЗАНОВО\"",
-    "en": "Fund \"RENOVATE\""
+    "en": "<span class=\"text-uppercase\">\"Renovate\"</span>"
   },
   "lang__menu-link-projects" : {
     "ua": "Проєкти",
@@ -26,7 +26,7 @@
 
   "lang__menu-sub-link-zsu-help" : {
     "ua": "Допомога ЗСУ",
-    "en": "ZSU help"
+    "en": "Help to AFU"
   },
   "lang__menu-sub-link-reconstruction" : {
     "ua": "Відбудова країни",
@@ -34,7 +34,7 @@
   },
   "lang__menu-sub-link-nets" : {
     "ua": "Загін СМС",
-    "en": "Squad of NCF"
+    "en": "Platoon of NCF"
   },
   "lang__menu-sub-link-candle" : {
     "ua": "Сили ССО",
@@ -42,7 +42,7 @@
   },
   "lang__menu-sub-link-humanitarian" : {
     "ua": "Гуманітарна допомога",
-    "en": "Humanitarian help"
+    "en": "Humanitarian aid"
   },
   "lang__menu-sub-link-events" : {
     "ua": "Благодійні заходи",
