@@ -1,7 +1,7 @@
 {
   "lang__footer-address-title" : {
-    "ua": "Благодійний фонд ''ЗАНОВО''",
-    "en": "Charity Fund ''RENOVATE''"
+    "ua": "Благодійний фонд \"Заново\"",
+    "en": "\"Renovate\" foundation"
   },
   "lang__footer-address-recvizit" : {
     "ua": "ЄДРПОУ: 44659830",
@@ -31,7 +31,7 @@
   },
 
   "lang__footer-address-copyright" : {
-    "ua": "&#169; 2024 - Благодійний фонд \"ЗАНОВО\". <br class=\"footer__br\"> Всі права захищені.",
-    "en": "&#169; 2024 - Renovate Charity Foundation. <br class=\"footer__br\"> All rights reserved."
+    "ua": "&#169; 2024 - Благодійний фонд <span class=\"text-uppercase\">\"Заново\"</span>. <br class=\"footer__br\"> Всі права захищені.",
+    "en": "&#169; 2024 - <span class=\"text-uppercase\">\"Renovate\"</span> Charity Foundation. <br class=\"footer__br\"> All rights reserved."
   }
 }
