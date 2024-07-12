@@ -1,17 +1,17 @@
-import Report_01_prev from '../images/fund-report/img-fund-report-001@0.5x.webp';
-import Report_01_orig from '../images/fund-report/img-fund-report-001@1x.webp';
-import Report_02_prev from '../images/fund-report/img-fund-report-002@0.5x.webp';
-import Report_02_orig from '../images/fund-report/img-fund-report-002@1x.webp';
-import Report_03_prev from '../images/fund-report/img-fund-report-003@0.5x.webp';
-import Report_03_orig from '../images/fund-report/img-fund-report-003@1x.webp';
-import Report_04_prev from '../images/fund-report/img-fund-report-004@0.5x.webp';
-import Report_04_orig from '../images/fund-report/img-fund-report-004@1x.webp';
-import Report_05_prev from '../images/fund-report/img-fund-report-005@0.5x.webp';
-import Report_05_orig from '../images/fund-report/img-fund-report-005@1x.webp';
-import Report_06_prev from '../images/fund-report/img-fund-report-006@0.5x.webp';
-import Report_06_orig from '../images/fund-report/img-fund-report-006@1x.webp';
-import Report_07_prev from '../images/fund-report/img-fund-report-007@0.5x.webp';
-import Report_07_orig from '../images/fund-report/img-fund-report-007@1x.webp';
+import Report_01_prev from '../images/fund-report/img-fund-report-001@1x.webp';
+import Report_01_orig from '../images/fund-report/img-fund-report-001@2x.webp';
+import Report_02_prev from '../images/fund-report/img-fund-report-002@1x.webp';
+import Report_02_orig from '../images/fund-report/img-fund-report-002@2x.webp';
+import Report_03_prev from '../images/fund-report/img-fund-report-003@1x.webp';
+import Report_03_orig from '../images/fund-report/img-fund-report-003@2x.webp';
+import Report_04_prev from '../images/fund-report/img-fund-report-004@1x.webp';
+import Report_04_orig from '../images/fund-report/img-fund-report-004@2x.webp';
+import Report_05_prev from '../images/fund-report/img-fund-report-005@1x.webp';
+import Report_05_orig from '../images/fund-report/img-fund-report-005@2x.webp';
+import Report_06_prev from '../images/fund-report/img-fund-report-006@1x.webp';
+import Report_06_orig from '../images/fund-report/img-fund-report-006@2x.webp';
+import Report_07_prev from '../images/fund-report/img-fund-report-007@1x.webp';
+import Report_07_orig from '../images/fund-report/img-fund-report-007@2x.webp';
 
 export const reportsGalleryItems = [
   {
